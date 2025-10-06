@@ -13,7 +13,7 @@ export function Header() {
         <div className="flex items-center justify-between">
           <div className="flex flex-col">
             <div className="flex items-center gap-2">
-              <img src="/logo.png" alt="ロゴ" className="h-10 w-10" />
+              <img src="/tenohira-gray.png" alt="ロゴ" className="h-10 w-10" />
               <div className="text-xl font-semibold text-foreground">てのひら</div>
             </div>
             <div className="text-xs text-muted-foreground">10年後も健康で美しくいるために</div>
