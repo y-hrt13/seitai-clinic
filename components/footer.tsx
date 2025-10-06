@@ -4,7 +4,7 @@ export function Footer() {
       <div className="container mx-auto max-w-6xl">
         <div className="grid md:grid-cols-3 gap-8 mb-8">
           <div>
-            <h3 className="text-lg font-semibold text-foreground mb-2">てにひら</h3>
+            <h3 className="text-lg font-semibold text-foreground mb-2">てのひら</h3>
             <p className="text-xs text-muted-foreground mb-3">10年後も健康で美しくいるために</p>
             <p className="text-sm text-muted-foreground leading-relaxed">
               福山市で頭痛・肩こりにお悩みなら。
