@@ -1,0 +1,42 @@
+import { Button } from "@/components/ui/button"
+import { ArrowRight } from "lucide-react"
+
+export function Hero() {
+  return (
+    <section className="pt-32 pb-20 px-4">
+      <div className="container mx-auto max-w-5xl">
+        <div className="text-center space-y-8">
+          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-foreground leading-tight text-balance">
+            福山市で頭痛や肩こりに
+            <br />
+            お悩みなら<span className="text-primary">てにひら</span>
+          </h1>
+
+          <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed text-pretty">
+            頭痛・肩こりの根本原因を見極め、確かな技術で改善へ導きます。
+            <br />
+            福山市で本気で身体の不調を治したい方のための接骨院です。
+          </p>
+
+          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-4">
+            <Button size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90 group">
+              初回限定キャンペーン
+              <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
+            </Button>
+            <Button size="lg" variant="outline">
+              施術内容を見る
+            </Button>
+          </div>
+        </div>
+
+        <div className="mt-16 rounded-xl overflow-hidden shadow-2xl">
+          <img
+            src="/peaceful-massage-therapy-room-with-natural-light.jpg"
+            alt="整体院の施術室"
+            className="w-full h-auto"
+          />
+        </div>
+      </div>
+    </section>
+  )
+}
