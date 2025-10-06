@@ -12,7 +12,10 @@ export function Header() {
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           <div className="flex flex-col">
-        <div className="text-xl font-semibold text-foreground">てのひら</div>
+            <div className="flex items-center gap-2">
+              <img src="/placeholder-logo.png" alt="ロゴ" className="h-8 w-8" />
+              <div className="text-xl font-semibold text-foreground">てのひら</div>
+            </div>
             <div className="text-xs text-muted-foreground">10年後も健康で美しくいるために</div>
           </div>
 
