@@ -9,7 +9,7 @@ export function Hero() {
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-foreground leading-tight text-balance">
             福山市で頭痛や肩こりに
             <br />
-            お悩みなら<span className="text-primary">てにひら</span>
+            お悩みなら<span className="text-primary">てのひら</span>
           </h1>
 
           <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed text-pretty">
