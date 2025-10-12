@@ -4,9 +4,10 @@ import { Brain, Dumbbell, Activity, Zap } from "lucide-react"
 const services = [
   {
     icon: Brain,
-    title: "頭痛治療",
-    description:
-      "緊張型頭痛、片頭痛など、様々なタイプの頭痛に対応。首や肩の筋肉の緊張をほぐし、血流を改善することで根本から改善します。",
+  // title: "頭痛治療", // 削除
+      title: "肩こり・首こり・猫背矯正",
+      description:
+        "緊張型頭痛、片頭痛など、様々なタイプの頭痛に対応。首や肩の筋肉の緊張をほぐし、血流を改善することで根本から改善します。",
     duration: "40分",
     price: "¥4,500",
   },
