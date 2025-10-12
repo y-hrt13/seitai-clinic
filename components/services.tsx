@@ -4,7 +4,6 @@ import { Brain, Dumbbell, Activity, Zap } from "lucide-react"
 const services = [
   {
     icon: Brain,
-  // title: "頭痛治療", // 削除
       title: "肩こり・首こり・猫背矯正",
       description:
         "緊張型頭痛、片頭痛など、様々なタイプの頭痛に対応。首や肩の筋肉の緊張をほぐし、血流を改善することで根本から改善します。",
@@ -13,7 +12,7 @@ const services = [
   },
   {
     icon: Dumbbell,
-    title: "肩こり改善",
+  title: "腰痛・反り腰・骨盤矯正",
     description:
       "デスクワークやスマホ使用による慢性的な肩こりを解消。筋肉の深部までアプローチし、可動域を広げて快適な日常を取り戻します。",
     duration: "40分",
