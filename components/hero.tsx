@@ -9,7 +9,7 @@ export function Hero() {
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-foreground leading-tight text-balance">
             福山市の「出張整体」
             <br />
-            肩こり / 腰痛 / 姿勢骨盤でお悩みの方へ<span className="text-primary"></span>
+            肩こり・腰痛・産後矯正<span className="text-primary"></span>
           </h1>
 
           <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed text-pretty">
