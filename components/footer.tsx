@@ -7,9 +7,9 @@ export function Footer() {
             <h3 className="text-lg font-semibold text-foreground mb-2">てのひら</h3>
             <p className="text-xs text-muted-foreground mb-3">10年後も健康で美しくいるために</p>
             <p className="text-sm text-muted-foreground leading-relaxed">
-              福山市で頭痛・肩こりにお悩みなら。
+              福山市でお体の不調にお悩みなら。
               <br />
-              確かな技術で根本改善をサポートします。
+              根本改善をサポートします。
             </p>
           </div>
 
@@ -31,6 +31,11 @@ export function Footer() {
                   アクセス
                 </a>
               </li>
+              <li>
+                <a href="#contact" className="hover:text-foreground transition-colors">
+                  ご予約
+                </a>
+              </li>
             </ul>
           </div>
 
@@ -39,13 +44,13 @@ export function Footer() {
             <ul className="space-y-2 text-sm text-muted-foreground">
               <li>TEL: 084-XXX-XXXX</li>
               <li>受付: 9:00〜19:00</li>
-              <li>定休日: 日曜・祝日</li>
+              <li>不定休</li>
             </ul>
           </div>
         </div>
 
         <div className="pt-8 border-t border-border text-center text-sm text-muted-foreground">
-          <p>&copy; 2025 てにひら. All rights reserved.</p>
+          <p>&copy; 2025 てのひら. All rights reserved.</p>
         </div>
       </div>
     </footer>
