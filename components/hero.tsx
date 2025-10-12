@@ -7,7 +7,7 @@ export function Hero() {
       <div className="container mx-auto max-w-5xl">
         <div className="text-center space-y-8">
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-foreground leading-tight text-balance">
-            福山市にお住まいの方へ
+            福山市の「出張整体」
             <br />
             肩こり / 腰痛 / 姿勢骨盤でお悩みの方へ<span className="text-primary"></span>
           </h1>
