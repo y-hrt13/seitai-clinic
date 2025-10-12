@@ -27,7 +27,7 @@ export function Header() {
               料金表
             </a>
             <a href="#contact" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-              アクセス
+              スタッフ紹介
             </a>
             <Button size="sm" className="bg-primary text-primary-foreground hover:bg-primary/90">
               ご予約
