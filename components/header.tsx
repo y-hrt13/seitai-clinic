@@ -24,7 +24,7 @@ export function Header() {
               施術内容
             </a>
             <a href="#about" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-              当院について
+              料金表
             </a>
             <a href="#contact" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
               アクセス
@@ -47,7 +47,7 @@ export function Header() {
               施術内容
             </a>
             <a href="#about" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-              当院について
+              料金
             </a>
             <a href="#contact" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
               アクセス
