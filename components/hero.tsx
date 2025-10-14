@@ -21,7 +21,7 @@ export function Hero() {
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-4">
             <Button size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90 group">
-              初回限定キャンペーン
+              初回限定クーポン
               <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
             </Button>
             <Button size="lg" variant="outline">

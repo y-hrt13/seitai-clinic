@@ -37,9 +37,9 @@ export function Footer() {
           <div>
             <h4 className="text-sm font-semibold text-foreground mb-4">お問い合わせ</h4>
             <ul className="space-y-2 text-sm text-muted-foreground">
-              <li>TEL: 084-XXX-XXXX</li>
-              <li>受付: 9:00〜19:00</li>
-              <li>不定休</li>
+              <li>TEL: 070-8556-1051</li>
+              <li>受付: 9:00〜20:00</li>
+              <li>定休日: 日曜・祝日</li>
             </ul>
           </div>
         </div>

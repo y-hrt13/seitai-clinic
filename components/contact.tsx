@@ -28,8 +28,8 @@ export function Contact() {
                 </CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-2xl font-bold text-primary mb-2">084-XXX-XXXX</p>
-                <p className="text-sm text-muted-foreground">受付時間：9:00〜19:00（日曜・祝日定休）</p>
+                <p className="text-2xl font-bold text-primary mb-2">070-8556-1051</p>
+                <p className="text-sm text-muted-foreground">受付時間：9:00〜20:00（日曜・祝日定休）</p>
               </CardContent>
             </Card>
 
@@ -37,13 +37,13 @@ export function Contact() {
               <CardHeader>
                 <CardTitle className="flex items-center gap-2">
                   <MapPin className="h-5 w-5 text-primary" />
-                  アクセス
+                  イベント情報
                 </CardTitle>
               </CardHeader>
               <CardContent className="space-y-2">
-                <p className="text-foreground">〒720-0000</p>
-                <p className="text-foreground">広島県福山市○○町X-X-X</p>
-                <p className="text-sm text-muted-foreground">福山駅より車で10分</p>
+                <p className="text-foreground">現在、イベントの予定はありません。</p>
+                <p className="text-foreground">〇〇〇〇</p>
+                <p className="text-sm text-muted-foreground">福山駅より徒歩〇〇分</p>
                 <p className="text-sm text-muted-foreground">駐車場完備</p>
               </CardContent>
             </Card>
@@ -57,12 +57,8 @@ export function Contact() {
               </CardHeader>
               <CardContent className="space-y-2">
                 <div className="flex justify-between">
-                  <span className="text-muted-foreground">月〜金</span>
-                  <span className="text-foreground">9:00 - 19:00</span>
-                </div>
-                <div className="flex justify-between">
-                  <span className="text-muted-foreground">土曜</span>
-                  <span className="text-foreground">9:00 - 17:00</span>
+                  <span className="text-muted-foreground">月〜土</span>
+                  <span className="text-foreground">9:00 - 20:00</span>
                 </div>
                 <div className="flex justify-between">
                   <span className="text-muted-foreground">日曜・祝日</span>
@@ -84,7 +80,7 @@ export function Contact() {
                   <label htmlFor="name" className="text-sm font-medium text-foreground">
                     お名前 <span className="text-destructive">*</span>
                   </label>
-                  <Input id="name" placeholder="山田 太郎" required />
+                  <Input id="name" placeholder="〇〇 〇〇" required />
                 </div>
 
                 <div className="space-y-2">
@@ -98,7 +94,7 @@ export function Contact() {
                   <label htmlFor="phone" className="text-sm font-medium text-foreground">
                     電話番号
                   </label>
-                  <Input id="phone" type="tel" placeholder="090-1234-5678" />
+                  <Input id="phone" type="tel" placeholder="000-000-0000" />
                 </div>
 
                 <div className="space-y-2">

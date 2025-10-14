@@ -4,9 +4,9 @@ import { Brain, Dumbbell, Activity, Zap } from "lucide-react"
 const services = [
   {
     icon: Brain,
-      title: "肩こり・首こり・猫背矯正",
+      title: "首肩こり・猫背矯正",
       description:
-        "緊張型頭痛、片頭痛など、様々なタイプの頭痛に対応。首や肩の筋肉の緊張をほぐし、血流を改善することで根本から改善します。",
+        "首や肩の筋肉の緊張をほぐしていきます。猫背に関係してくる関節・筋肉へのアプローチをしていきます。",
     duration: "30分",
     price: "¥3,500",
   },
@@ -14,14 +14,14 @@ const services = [
     icon: Dumbbell,
   title: "腰痛・反り腰・骨盤矯正",
     description:
-      "デスクワークやスマホ使用による慢性的な肩こりを解消。筋肉の深部までアプローチし、可動域を広げて快適な日常を取り戻します。",
+      "腰や下肢の筋肉の緊張をほぐしていきます。股関節や背骨の歪みを整えていくことで反り腰・痛みを改善していきます。",
     duration: "30分",
     price: "¥3,500",
   },
   {
     icon: Activity,
   title: "産後ケア",
-    description: "骨格や筋肉のバランスを整え、身体全体の不調を改善。姿勢の歪みから来る様々な症状に対応します。",
+    description: "骨盤矯正をしていきます。骨盤だけではなく「歩き方・立ち方・座り方」など妊娠中に出来た良くない癖を改善していく中で、育児で疲労した身体を整えていきます。",
     duration: "30分",
     price: "¥3,500",
   },
@@ -29,7 +29,7 @@ const services = [
     icon: Zap,
     title: "交通事故相談",
     description:
-      "運動による怪我や痛みの治療とリハビリ。アスリートから趣味で運動される方まで、早期回復をサポートします。",
+      "交通事故によるむち打ち症状や事故対応「保険対応」などアドバイス致します。症状によってはお近くの医療機関をご紹介します",
     duration: "30分",
     price: "¥0",
   },
@@ -40,9 +40,9 @@ export function Services() {
     <section id="services" className="py-20 px-4 bg-muted/30">
       <div className="container mx-auto max-w-6xl">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-4 text-balance">施術メニュー</h2>
+          <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-4 text-balance">施術内容</h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            お客様の症状やご要望に合わせて、最適な施術をご提案いたします
+            お客様の症状やご要望に合わせて、オーダーメイドの施術をご提案いたします。
           </p>
         </div>
 

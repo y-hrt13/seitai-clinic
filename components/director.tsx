@@ -2,7 +2,7 @@ export function Director() {
   return (
     <section id="director" className="py-24 bg-background">
       <div className="container mx-auto px-4 max-w-6xl">
-        <h2 className="font-serif text-4xl md:text-5xl text-center mb-16 text-foreground">院長紹介</h2>
+        <h2 className="font-serif text-4xl md:text-5xl text-center mb-16 text-foreground">スタッフ紹介</h2>
 
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
@@ -12,12 +12,14 @@ export function Director() {
             </div>
 
             <div className="space-y-4 text-foreground/80 leading-relaxed">
-              <p>福山市で生まれ育ち、地域の皆様の健康をサポートしたいという想いから、出張整体てにひらを初めました。</p>
+              <p>福山市で生まれ育ち、地域の皆様の健康をサポートしたいという想いから、《 出張整体てにひら 》を初めました。</p>
               <p>
-                慢性的な肩こり腰痛、現代人特有の症状に対して、根本的な改善を目指した施術を提供しています。
+                肩こり腰痛、現代人特有の症状に対して、根本的な改善を目指した施術を提供しています。
+                以前の勤務先では、主に産後の骨盤矯正やダイエットメニューを担当していましたのでお気軽にご相談下さい。
               </p>
               <p>
-                お一人おひとりの症状や生活習慣に合わせた、オーダーメイドの施術プランをご提案いたします。施術は痛みの少ないソフトな手技を中心に行います。
+                お1人おひとりの症状や生活習慣に合わせた、オーダーメイドの施術をご提案いたします。
+                施術は痛みの少ないソフトな手技を中心に行います。
               </p>
             </div>
 
