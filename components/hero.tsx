@@ -28,7 +28,13 @@ export function Hero() {
               <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
             </Button>
             <Button size="lg" variant="outline">
-              施術内容 ・ 料金
+              <Button asChild>
+  <a href="#services" className="group flex items-center">
+    施術内容 ・ 料金
+    <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
+  </a>
+</Button>
+
             </Button>
           </div>
         </div>
