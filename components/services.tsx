@@ -47,11 +47,11 @@ export function Services() {
   60分 : ¥5,500円<br />
 </div>
 <br />
- ( 例 ) 
+ <span className="text-left block">( 例 )</span><br />
 <br />            
 肩こり ＋ 骨盤矯正 ＝ 30分 ( ¥3,500円 )<br />
 <br />
-猫背矯正 ＋ 腰痛 ＝ 60分 ( ¥5,500円 )<br />
+猫背矯正 ＋ 腰痛 ＋ 首こり ＝ 60分 ( ¥5,500円 )<br />
           </p>
         </div>
 
