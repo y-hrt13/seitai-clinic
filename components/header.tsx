@@ -32,20 +32,26 @@ export function Header() {
           </div>
 
           {/* Desktop Navigation */}
-          <nav className="hidden md:flex items-center gap-8">
-            <a href="#services" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-              施術内容 ・ 料金
-            </a>
-            <a href="#about" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-              「てのひら」 について
-            </a>  
-            <a href="#staff" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-              スタッフ紹介
-            </a>
-            <a href="#contact" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-              ご予約
-            </a>
-          </nav>
+<nav className="hidden md:flex items-center gap-8">
+  <a href="#services" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+    施術内容 ・ 料金
+  </a>
+  <a href="#about" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+    「てのひら」 について
+  </a>
+  <a href="#staff" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+    スタッフ紹介
+  </a>
+
+  {/* ご予約ボタン風 */}
+  <a
+    href="#contact"
+    className="text-sm px-4 py-2 rounded-full bg-primary text-white hover:bg-primary/90 transition-colors shadow-sm"
+  >
+    ご予約
+  </a>
+</nav>
+
 
           {/* Mobile Menu Button */}
           <button
