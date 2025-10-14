@@ -44,17 +44,13 @@ export function Header() {
         {isMenuOpen && (
           <nav className="md:hidden mt-4 pb-4 flex flex-col gap-4">
             <a href="#services" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-              施術内容
+              施術内容・料金
             </a>
             <a href="#about" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-              料金表
-            </a>
-            <a href="#contact" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
               スタッフ紹介
             </a>
-            <Button size="sm" className="bg-primary text-primary-foreground hover:bg-primary/90 w-full">
+            <a href="#contact" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
               ご予約
-            </Button>
           </nav>
         )}
       </div>

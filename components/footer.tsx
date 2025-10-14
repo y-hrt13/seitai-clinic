@@ -18,22 +18,17 @@ export function Footer() {
             <ul className="space-y-2 text-sm text-muted-foreground">
               <li>
                 <a href="#services" className="hover:text-foreground transition-colors">
-                  施術内容
+                  施術内容・料金
                 </a>
               </li>
               <li>
                 <a href="#about" className="hover:text-foreground transition-colors">
-                  当院について
+                  スタッフ紹介
                 </a>
               </li>
               <li>
                 <a href="#contact" className="hover:text-foreground transition-colors">
-                  アクセス
-                </a>
-              </li>
-              <li>
-                <a href="#contact" className="hover:text-foreground transition-colors">
-                  ご予約
+                  ご予約・お問い合わせ
                 </a>
               </li>
             </ul>
