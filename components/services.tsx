@@ -35,80 +35,69 @@ const services = [
 export function Services() {
   return (
     <section id="services" className="py-20 px-4 bg-muted/30">
-      div className="container mx-auto max-w-6xl"
-        <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-4 text-balance">
-            施術内容 ・ 料金
-          </h2>
-           <br />
-          <p className="text-lg text-muted-foreground max-w-4xl mx-auto leading-relaxed">
-  お客様の症状やご要望に合わせて、下記の施術内容からオーダーメイドで施術致します。
-  <br />
+  <div className="text-center mb-16">
+    <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-4 text-balance">
+      施術内容 ・ 料金
+    </h2>
 
-  {/* 全体を黒枠で囲む */}
-  <div className="border-2 border-black rounded-lg p-6 mt-6">
+    <p className="text-lg text-muted-foreground max-w-4xl mx-auto leading-relaxed">
+      お客様の症状やご要望に合わせて、下記の施術内容からオーダーメイドで施術致します。
+      <br />
 
-    {/* 横並び：左が料金表、右が例文、中央に黒線 */}
-    <div className="flex flex-col md:flex-row justify-between items-stretch">
+      {/* 全体を黒枠で囲む（下にスペースを追加 → mb-12） */}
+      <div className="border-2 border-black rounded-lg p-6 mt-6 mb-12">
 
-      {/* 左側：料金 */}
-      <div className="flex flex-col justify-center items-center text-3xl font-bold text-black w-full md:w-1/2 text-center">
-        30分 : ¥3,500円
-        <br />
-        <br />
-        60分 : ¥5,500円
-      </div>
+        {/* 横並び：左が料金表、右が例文、中央に黒線 */}
+        <div className="flex flex-col md:flex-row justify-between items-stretch">
 
-      {/* 中央の黒線（外枠と同じ太さ） */}
-      <div className="hidden md:block border-l-2 border-black mx-8"></div>
+          {/* 左側：料金 */}
+          <div className="flex flex-col justify-center items-center text-3xl font-bold text-black w-full md:w-1/2 text-center">
+            30分 : ¥3,500円
+            <br />
+            <br />
+            60分 : ¥5,500円
+          </div>
 
-      {/* 右側：(例) */}
-      <div className="flex flex-col justify-center text-left text-lg font-medium text-black leading-relaxed w-full md:w-1/2">
-        <span className="block mb-2">( 例 )</span>
-        肩こり ＋ 骨盤矯正 ＝ 30分 ( ¥3,500円 )
-        <br />
-        <br />
-        猫背矯正 ＋ 腰痛 ＋ 首こり ＝ 60分 ( ¥5,500円 )
-      </div>
+          {/* 中央の黒線（外枠と同じ太さ） */}
+          <div className="hidden md:block border-l-2 border-black mx-8"></div>
 
-    </div>
-  </div>
-</p>
-
-
-
-        {/* ↓ 施術内容のカード部分 */}
-        <div className="grid md:grid-cols-2 gap-6">
-          {services.map((service, index) => {
-            const Icon = service.icon
-            return (
-              <Card key={index} className="border-border hover:shadow-lg transition-shadow">
-                <CardHeader>
-                  <div className="flex items-start gap-4">
-                    <div className="p-3 rounded-lg bg-primary/10">
-                      <Icon className="h-6 w-6 text-primary" />
-                    </div>
-                    <div className="flex-1">
-                      <CardTitle className="text-xl mb-2">{service.title}</CardTitle>
-                      <div className="flex gap-3 text-sm text-muted-foreground">
-                        <span>{service.duration}</span>
-                        <span>•</span>
-                        <span className="font-semibold text-primary">{service.price}</span>
-                      </div>
-                    </div>
-                  </div>
-                </CardHeader>
-                <CardContent>
-                  <CardDescription className="text-base leading-relaxed">
-                    {service.description}
-                  </CardDescription>
-                </CardContent>
-              </Card>
-            )
-          })}
+          {/* 右側：(例) */}
+          <div className="flex flex-col justify-center text-left text-lg font-medium text-black leading-relaxed w-full md:w-1/2">
+            <span className="block mb-2">( 例 )</span>
+            肩こり ＋ 骨盤矯正 ＝ 30分 ( ¥3,500円 )
+            <br />
+            <br />
+            猫背矯正 ＋ 腰痛 ＋ 首こり ＝ 60分 ( ¥5,500円 )
+          </div>
         </div>
       </div>
-    </section>
+    </p>
+  </div>
+
+  {/* 下の施術内容カード一覧 */}
+  <div className="grid md:grid-cols-2 gap-6">
+    {services.map((service, index) => {
+      const Icon = service.icon
+      return (
+        <Card key={index} className="border-border hover:shadow-lg transition-shadow">
+          <CardHeader>
+            <div className="flex items-start gap-4">
+              <div className="p-3 rounded-lg bg-primary/10">
+                <Icon className="h-6 w-6 text-primary" />
+              </div>
+              <div className="flex-1">
+                <CardTitle className="text-xl mb-2">{service.title}</CardTitle>
+                <CardDescription className="text-base leading-relaxed">
+                  {service.description}
+                </CardDescription>
+              </div>
+            </div>
+          </CardHeader>
+        </Card>
+      )
+    })}
+  </div>
+</section>
   )
 }
 
