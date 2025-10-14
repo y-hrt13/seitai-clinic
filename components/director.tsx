@@ -1,6 +1,6 @@
 export function Director() {
   return (
-    <section id="director" className="py-24 bg-background">
+    <section id="staff" className="py-24 bg-background">
       <div className="container mx-auto px-4 max-w-6xl">
         <h2 className="font-serif text-4xl md:text-5xl text-center mb-16 text-foreground">スタッフ紹介</h2>
 
