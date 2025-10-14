@@ -23,7 +23,7 @@ export function Footer() {
               </li>
               <li>
                 <a href="#about" className="hover:text-foreground transition-colors">
-                  「てのひら」について
+                  「てのひら」 について
                 </a>
               </li>
               <li>

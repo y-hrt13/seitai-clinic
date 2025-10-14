@@ -35,24 +35,36 @@ const services = [
 export function Services() {
   return (
     <section id="services" className="py-20 px-4 bg-muted/30">
-      <div className="container mx-auto max-w-6xl">
+       className="container mx-auto max-w-6xl"
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-4 text-balance">施術内容 ・ 料金</h2>
-          <p className="text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            お客様の症状やご要望に合わせて、下記の施術内容からオーダーメイドで施術致します。<br />
-            
-           <div className="flex flex-col items-center justify-center text-3xl font-bold text-black border border-black rounded-lg p-6">
-  30分 : ¥3,500円<br />
-  <br />
-  60分 : ¥5,500円<br />
-</div>
-<br />
- <span className="text-left block">( 例 )</span><br />           
-肩こり ＋ 骨盤矯正 ＝ 30分 ( ¥3,500円 )<br />
-<br />
-猫背矯正 ＋ 腰痛 ＋ 首こり ＝ 60分 ( ¥5,500円 )<br />
-          </p>
-        </div>
+        <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-4 text-balance">施術内容 ・ 料金</h2>
+         <p className="text-lg text-muted-foreground max-w-4xl mx-auto leading-relaxed">
+  お客様の症状やご要望に合わせて、下記の施術内容からオーダーメイドで施術致します。<br />
+
+  {/* ↓ flex で横並び＆中央に仕切り線 */}
+  <div className="flex flex-col md:flex-row justify-center items-start mt-6 md:mt-10">
+
+    {/* 左側：料金表 */}
+    <div className="flex flex-col items-center justify-center text-3xl font-bold text-black border border-black rounded-lg p-6 w-full md:w-1/2">
+      30分 : ¥3,500円<br />
+      <br />
+      60分 : ¥5,500円<br />
+    </div>
+
+    {/* 仕切り線（中央） */}
+    <div className="hidden md:block border-l border-gray-400 mx-10 h-40"></div>
+
+    {/* 右側：(例) 部分 */}
+    <div className="text-left text-lg font-medium text-black leading-relaxed w-full md:w-1/2">
+      <span className="block mb-2">( 例 )</span>
+      肩こり ＋ 骨盤矯正 ＝ 30分 ( ¥3,500円 )<br />
+      <br />
+      猫背矯正 ＋ 腰痛 ＋ 首こり ＝ 60分 ( ¥5,500円 )<br />
+    </div>
+
+  </div>
+</p>
+
 
         <div className="grid md:grid-cols-2 gap-6">
           {services.map((service, index) => {
