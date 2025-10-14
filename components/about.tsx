@@ -22,7 +22,7 @@ export function About() {
 
           <div className="order-1 md:order-2 space-y-6">
             <h2 className="text-3xl md:text-5xl font-bold text-foreground text-balance">
-            「てのひら」について
+            「てのひら」 について
 
             </h2>
 

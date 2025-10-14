@@ -34,9 +34,12 @@ export function Header() {
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center gap-8">
             <a href="#services" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-              施術内容・料金
+              施術内容 ・ 料金
             </a>
             <a href="#about" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+              「てのひら」 について
+            </a>  
+            <a href="#staff" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
               スタッフ紹介
             </a>
             <a href="#contact" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
@@ -60,6 +63,9 @@ export function Header() {
             <a href="#services" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
               施術内容・料金
             </a>
+            <a href="#about" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+              「てのひら」 について
+            </a>  
             <a href="#about" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
               スタッフ紹介
             </a>

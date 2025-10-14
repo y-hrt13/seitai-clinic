@@ -35,7 +35,7 @@ export function Director() {
                 </li>
                 <li className="flex items-start">
                   <span className="text-accent mr-2">•</span>
-                  <span>ファステイングカウンセラー</span>
+                  <span>ファステイングカウンセラー ( 栄養指導 )</span>
                 </li>
               </ul>
             </div>

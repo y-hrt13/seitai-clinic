@@ -101,7 +101,7 @@ export function Contact() {
                   <label htmlFor="message" className="text-sm font-medium text-foreground">
                     お問い合わせ内容 <span className="text-destructive">*</span>
                   </label>
-                  <Textarea id="message" placeholder="事前に相談したいことを記載して下さい" rows={5} required />
+                  <Textarea id="message" placeholder="事前に相談したいことを記" rows={5} required />
                 </div>
 
                 <Button type="submit" className="w-full bg-primary text-primary-foreground hover:bg-primary/90">

@@ -28,7 +28,7 @@ export function Hero() {
               <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
             </Button>
             <Button size="lg" variant="outline">
-              施術内容・料金を見る
+              施術内容 ・ 料金
             </Button>
           </div>
         </div>
