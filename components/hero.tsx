@@ -9,13 +9,13 @@ export function Hero() {
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-foreground leading-tight text-balance">
             福山市の「出張整体」
             <br />
-            お子様でも受けれる優しい姿勢矯正<span className="text-primary"></span>
+            ソフトで優しい矯正<span className="text-primary"></span>
           </h1>
 
           <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed text-pretty">
-            お仕事が忙しくて受診しにくい方
+            お仕事が忙しくてなかなか通院が出来ない．．．
             <br />
-            出産後のケアがしたいけど、子どもを連れていけれない．．．
+            出産後のケアがしたいけど、子どもを連れて行くのが不安．．．
             <br />
             料金が高くて何回も通うのは難しい．．．
             <br />
@@ -24,7 +24,7 @@ export function Hero() {
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-4">
             <Button size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90 group">
-              初回限定クーポン
+              初回クーポン
               <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
             </Button>
             <Button size="lg" variant="outline">
