@@ -13,7 +13,7 @@ export function Contact() {
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-4 text-balance">ご予約 ・ お問い合わせ</h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            ご予約 ・ ご相談は、お電話・公式LINEでも受け付けております。
+            ご予約 ・ ご相談は、お電話 ・ 公式LINEでも受け付けております。
           </p>
         </div>
 
@@ -29,7 +29,7 @@ export function Contact() {
               </CardHeader>
               <CardContent>
                 <p className="text-2xl font-bold text-primary mb-2">070-8556-1051</p>
-                <p className="text-sm text-muted-foreground">受付時間：9:00〜20:00（日曜・祝日定休）</p>
+                <p className="text-sm text-muted-foreground">受付時間：9:00〜20:00（ 日曜 ・ 祝日定休 ）</p>
               </CardContent>
             </Card>
 
@@ -42,9 +42,9 @@ export function Contact() {
               </CardHeader>
               <CardContent className="space-y-2">
                 <p className="text-foreground">現在、イベントの予定はありません。</p>
-                <p className="text-foreground">〇〇〇〇</p>
+                <p className="text-foreground">会場場所</p>
                 <p className="text-sm text-muted-foreground">福山駅より徒歩〇〇分</p>
-                <p className="text-sm text-muted-foreground">駐車場〇〇</p>
+                <p className="text-sm text-muted-foreground">駐車場 ( あり / なし )</p>
               </CardContent>
             </Card>
 
@@ -61,7 +61,7 @@ export function Contact() {
                   <span className="text-foreground">9:00 - 20:00</span>
                 </div>
                 <div className="flex justify-between">
-                  <span className="text-muted-foreground">日曜・祝日</span>
+                  <span className="text-muted-foreground">日曜 ・ 祝日</span>
                   <span className="text-destructive">定休日</span>
                 </div>
               </CardContent>
@@ -101,7 +101,7 @@ export function Contact() {
                   <label htmlFor="message" className="text-sm font-medium text-foreground">
                     お問い合わせ内容 <span className="text-destructive">*</span>
                   </label>
-                  <Textarea id="message" placeholder="事前に相談したいことを記" rows={5} required />
+                  <Textarea id="message" placeholder="事前に相談したいことを入力" rows={5} required />
                 </div>
 
                 <Button type="submit" className="w-full bg-primary text-primary-foreground hover:bg-primary/90">

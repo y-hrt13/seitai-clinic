@@ -18,7 +18,7 @@ export function Footer() {
             <ul className="space-y-2 text-sm text-muted-foreground">
               <li>
                 <a href="#services" className="hover:text-foreground transition-colors">
-                  施術内容・料金
+                  施術内容 ・ 料金
                 </a>
               </li>
               <li>
@@ -33,7 +33,7 @@ export function Footer() {
               </li>
               <li>
                 <a href="#contact" className="hover:text-foreground transition-colors">
-                  ご予約・お問い合わせ
+                  ご予約 ・ お問い合わせ
                 </a>
               </li>
             </ul>
@@ -44,7 +44,7 @@ export function Footer() {
             <ul className="space-y-2 text-sm text-muted-foreground">
               <li>TEL: 070-8556-1051</li>
               <li>受付: 9:00〜20:00</li>
-              <li>定休日: 日曜・祝日</li>
+              <li>定休日: 日曜 ・ 祝日</li>
             </ul>
           </div>
         </div>

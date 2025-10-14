@@ -23,7 +23,7 @@ export function Director() {
           ご家族やお友達と一緒にご参加ください。</div>
 
             <div className="pt-6 border-t border-border">
-              <h4 className="font-semibold text-lg mb-3 text-foreground">資格・経歴</h4>
+              <h4 className="font-semibold text-lg mb-3 text-foreground">資格 ・ 経歴</h4>
               <ul className="space-y-2 text-foreground/80">
                 <li className="flex items-start">
                   <span className="text-accent mr-2">•</span>
