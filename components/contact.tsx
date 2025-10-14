@@ -13,7 +13,7 @@ export function Contact() {
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-4 text-balance">ご予約・お問い合わせ</h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            お気軽にお問い合わせください。初回の方は無料カウンセリングも承っております
+            お気軽にお問い合わせください。交通事故のご相談はお電話・公式LINEで受け付けております。
           </p>
         </div>
 
@@ -80,28 +80,28 @@ export function Contact() {
                   <label htmlFor="name" className="text-sm font-medium text-foreground">
                     お名前 <span className="text-destructive">*</span>
                   </label>
-                  <Input id="name" placeholder="〇〇 〇〇" required />
+                  <Input id="name" placeholder="" required />
                 </div>
 
                 <div className="space-y-2">
                   <label htmlFor="email" className="text-sm font-medium text-foreground">
-                    メールアドレス <span className="text-destructive">*</span>
+                    電話番号 <span className="text-destructive">*</span>
                   </label>
-                  <Input id="email" type="email" placeholder="example@email.com" required />
+                  <Input id="email" type="email" placeholder="" required />
                 </div>
 
                 <div className="space-y-2">
                   <label htmlFor="phone" className="text-sm font-medium text-foreground">
-                    電話番号
+                    出張先　ご住所
                   </label>
-                  <Input id="phone" type="tel" placeholder="000-000-0000" />
+                  <Input id="phone" type="tel" placeholder="" />
                 </div>
 
                 <div className="space-y-2">
                   <label htmlFor="message" className="text-sm font-medium text-foreground">
                     お問い合わせ内容 <span className="text-destructive">*</span>
                   </label>
-                  <Textarea id="message" placeholder="ご質問やご相談内容をお書きください" rows={5} required />
+                  <Textarea id="message" placeholder="事前に相談したいことを記載して下さい" rows={5} required />
                 </div>
 
                 <Button type="submit" className="w-full bg-primary text-primary-foreground hover:bg-primary/90">
