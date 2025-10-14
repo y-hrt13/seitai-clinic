@@ -4,14 +4,14 @@ import { Brain, Dumbbell, Activity, Zap } from "lucide-react"
 const services = [
   {
     icon: Brain,
-      title: "首こり・肩こり・猫背矯正",
+      title: "首こり ・ 肩こり ・ 猫背矯正",
       description:
         "首や肩の筋肉の緊張をほぐしていきます。猫背に関係してくる関節・筋肉へのアプローチをしていきます。",
     
   },
   {
     icon: Dumbbell,
-  title: "腰痛・反り腰・骨盤矯正",
+  title: "腰痛 ・ 反り腰 ・ 骨盤矯正",
     description:
       "腰や下肢の筋肉の緊張をほぐしていきます。股関節や背骨の歪みを整えていくことで反り腰・痛みを改善していきます。",
 
@@ -24,7 +24,7 @@ const services = [
   },
   {
     icon: Zap,
-    title: "交通事故　無料相談",
+    title: "交通事故 無料相談",
     description:
       "交通事故によるむち打ち症状や事故対応「保険対応」などアドバイス致します。症状によってはお近くの医療機関をご紹介します",
     duration: "",
@@ -52,10 +52,10 @@ export function Services() {
 
           {/* 左側：料金 */}
           <div className="flex flex-col justify-center items-center text-3xl font-bold text-black w-full md:w-1/2 text-center">
-            30分 : ¥3,500円
+            30分 : 3,500円
             <br />
             <br />
-            60分 : ¥5,500円
+            60分 : 5,500円
           </div>
 
           {/* 中央の黒線（外枠と同じ太さ） */}
@@ -64,10 +64,10 @@ export function Services() {
           {/* 右側：(例) */}
           <div className="flex flex-col justify-center text-left text-lg font-medium text-black leading-relaxed w-full md:w-1/2">
             <span className="block mb-2">( 例 )</span>
-            肩こり ＋ 骨盤矯正 ＝ 30分 ( ¥3,500円 )
+            肩こり ＋ 骨盤矯正 ＝ 30分 ( 3,500円 )
             <br />
             <br />
-            猫背矯正 ＋ 腰痛 ＋ 首こり ＝ 60分 ( ¥5,500円 )
+            猫背矯正 ＋ 腰痛 ＋ 首こり ＝ 60分 ( 5,500円 )
           </div>
         </div>
       </div>
