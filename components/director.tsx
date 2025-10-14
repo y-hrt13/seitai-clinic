@@ -7,17 +7,17 @@ export function Director() {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <div>
-              <h3 className="font-serif text-3xl mb-2 text-foreground">院長　山田 太郎</h3>
-              <p className="text-muted-foreground text-lg">柔道整復師 / 鍼灸師</p>
+              <h3 className="font-serif text-3xl mb-2 text-foreground">院長　平田　裕也</h3>
+              <p className="text-muted-foreground text-lg">柔道整復師 / 整体師</p>
             </div>
 
             <div className="space-y-4 text-foreground/80 leading-relaxed">
-              <p>福山市で生まれ育ち、地域の皆様の健康をサポートしたいという想いから、てにひらを開院いたしました。</p>
+              <p>福山市で生まれ育ち、地域の皆様の健康をサポートしたいという想いから、出張整体てにひらを初めました。</p>
               <p>
-                15年以上の臨床経験を活かし、頭痛や肩こりなど、現代人特有の症状に対して、根本的な改善を目指した施術を提供しています。
+                慢性的な肩こり腰痛、現代人特有の症状に対して、根本的な改善を目指した施術を提供しています。
               </p>
               <p>
-                お一人おひとりの症状や生活習慣に合わせた、オーダーメイドの施術プランをご提案いたします。痛みのない生活を取り戻すお手伝いをさせてください。
+                お一人おひとりの症状や生活習慣に合わせた、オーダーメイドの施術プランをご提案いたします。施術は痛みの少ないソフトな手技を中心に行います。
               </p>
             </div>
 
@@ -30,19 +30,11 @@ export function Director() {
                 </li>
                 <li className="flex items-start">
                   <span className="text-accent mr-2">•</span>
-                  <span>鍼灸師国家資格取得</span>
+                  <span>ファステイングカウンセラー</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-accent mr-2">•</span>
-                  <span>スポーツトレーナー認定資格</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="text-accent mr-2">•</span>
-                  <span>整形外科クリニック勤務（10年）</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="text-accent mr-2">•</span>
-                  <span>プロスポーツチーム専属トレーナー経験</span>
+                  <span>機能訓練指導員の経験</span>
                 </li>
               </ul>
             </div>
