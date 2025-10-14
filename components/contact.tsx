@@ -43,7 +43,7 @@ export function Contact() {
               <CardContent className="space-y-2">
                 <p className="text-foreground">現在、イベントの予定はありません。</p>
                 <p className="text-foreground">会場場所</p>
-                <p className="text-sm text-muted-foreground">福山駅より徒歩〇〇分</p>
+                <p className="text-sm text-muted-foreground">〇〇から徒歩〇〇分</p>
                 <p className="text-sm text-muted-foreground">駐車場 ( あり / なし )</p>
               </CardContent>
             </Card>
@@ -101,7 +101,7 @@ export function Contact() {
                   <label htmlFor="message" className="text-sm font-medium text-foreground">
                     お問い合わせ内容 <span className="text-destructive">*</span>
                   </label>
-                  <Textarea id="message" placeholder="事前に相談したいことを入力" rows={5} required />
+                  <Textarea id="message" placeholder="事前に相談したいことを入力してください。" rows={5} required />
                 </div>
 
                 <Button type="submit" className="w-full bg-primary text-primary-foreground hover:bg-primary/90">
