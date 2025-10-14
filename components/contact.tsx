@@ -11,9 +11,9 @@ export function Contact() {
     <section id="contact" className="py-20 px-4 bg-muted/30">
       <div className="container mx-auto max-w-6xl">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-4 text-balance">ご予約・お問い合わせ</h2>
+          <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-4 text-balance">ご予約 ・ お問い合わせ</h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            お気軽にお問い合わせください。交通事故のご相談はお電話・公式LINEで受け付けております。
+            ご予約 ・ ご相談は、お電話・公式LINEでも受け付けております。
           </p>
         </div>
 
