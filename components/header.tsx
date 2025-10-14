@@ -47,10 +47,10 @@ export function Header() {
               施術内容
             </a>
             <a href="#about" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-              料金
+              料金表
             </a>
             <a href="#contact" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-              アクセス
+              スタッフ紹介
             </a>
             <Button size="sm" className="bg-primary text-primary-foreground hover:bg-primary/90 w-full">
               ご予約

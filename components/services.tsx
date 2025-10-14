@@ -7,31 +7,31 @@ const services = [
       title: "肩こり・首こり・猫背矯正",
       description:
         "緊張型頭痛、片頭痛など、様々なタイプの頭痛に対応。首や肩の筋肉の緊張をほぐし、血流を改善することで根本から改善します。",
-    duration: "40分",
-    price: "¥4,500",
+    duration: "30分",
+    price: "¥3,500",
   },
   {
     icon: Dumbbell,
   title: "腰痛・反り腰・骨盤矯正",
     description:
       "デスクワークやスマホ使用による慢性的な肩こりを解消。筋肉の深部までアプローチし、可動域を広げて快適な日常を取り戻します。",
-    duration: "40分",
-    price: "¥4,500",
+    duration: "30分",
+    price: "¥3,500",
   },
   {
     icon: Activity,
-    title: "全身調整",
+  title: "産後ケア",
     description: "骨格や筋肉のバランスを整え、身体全体の不調を改善。姿勢の歪みから来る様々な症状に対応します。",
-    duration: "60分",
-    price: "¥6,000",
+    duration: "30分",
+    price: "¥3,500",
   },
   {
     icon: Zap,
-    title: "スポーツ障害",
+    title: "交通事故相談",
     description:
       "運動による怪我や痛みの治療とリハビリ。アスリートから趣味で運動される方まで、早期回復をサポートします。",
-    duration: "50分",
-    price: "¥5,500",
+    duration: "30分",
+    price: "¥0",
   },
 ]
 
