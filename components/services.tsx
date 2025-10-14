@@ -7,31 +7,28 @@ const services = [
       title: "首こり・肩こり・猫背矯正",
       description:
         "首や肩の筋肉の緊張をほぐしていきます。猫背に関係してくる関節・筋肉へのアプローチをしていきます。",
-    duration: "30分",
-    price: "¥3,500～¥5,500"
+    
   },
   {
     icon: Dumbbell,
   title: "腰痛・反り腰・骨盤矯正",
     description:
       "腰や下肢の筋肉の緊張をほぐしていきます。股関節や背骨の歪みを整えていくことで反り腰・痛みを改善していきます。",
-    duration: "30分～60分",
-    price: "¥3,500～¥5,500"
+
   },
   {
     icon: Activity,
   title: "産後ケア",
     description: "骨盤矯正をしていきます。骨盤だけではなく「歩き方・立ち方・座り方」など妊娠中に出来た良くない癖を改善していく中で、育児で疲労した身体を整えていきます。",
-    duration: "30分～60分",
-    price: "¥3,500～¥5,500",
+
   },
   {
     icon: Zap,
-    title: "交通事故相談",
+    title: "交通事故　無料相談",
     description:
       "交通事故によるむち打ち症状や事故対応「保険対応」などアドバイス致します。症状によってはお近くの医療機関をご紹介します",
-    duration: "30分",
-    price: "¥0",
+    duration: "",
+    price: "",
   },
 ]
 
@@ -46,12 +43,15 @@ export function Services() {
             
            <div className="flex flex-col items-center justify-center text-3xl font-bold text-black border border-black rounded-lg p-6">
   30分 : ¥3,500円<br />
+  <br />
   60分 : ¥5,500円<br />
-<br />
 </div>
-
-            ( 例 ) 肩こり ＋ 骨盤矯正 ＝ 30分 3,500円<br />
-                   猫背矯正 ＋ 腰痛 ＝ 60分 5,500円<br />
+<br />
+ ( 例 ) 
+<br />            
+肩こり ＋ 骨盤矯正 ＝ 30分 ( ¥3,500円 )<br />
+<br />
+猫背矯正 ＋ 腰痛 ＝ 60分 ( ¥5,500円 )<br />
           </p>
         </div>
 
