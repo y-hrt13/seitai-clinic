@@ -35,37 +35,41 @@ const services = [
 export function Services() {
   return (
     <section id="services" className="py-20 px-4 bg-muted/30">
-       className="container mx-auto max-w-6xl"
+      <div className="container mx-auto max-w-6xl">
         <div className="text-center mb-16">
-        <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-4 text-balance">施術内容 ・ 料金</h2>
-         <p className="text-lg text-muted-foreground max-w-4xl mx-auto leading-relaxed">
-  お客様の症状やご要望に合わせて、下記の施術内容からオーダーメイドで施術致します。<br />
+          <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-4 text-balance">
+            施術内容 ・ 料金
+          </h2>
 
-  {/* ↓ flex で横並び＆中央に仕切り線 */}
-  <div className="flex flex-col md:flex-row justify-center items-start mt-6 md:mt-10">
+          <p className="text-lg text-muted-foreground max-w-4xl mx-auto leading-relaxed">
+            お客様の症状やご要望に合わせて、下記の施術内容からオーダーメイドで施術致します。
+            <br />
 
-    {/* 左側：料金表 */}
-    <div className="flex flex-col items-center justify-center text-3xl font-bold text-black border border-black rounded-lg p-6 w-full md:w-1/2">
-      30分 : ¥3,500円<br />
-      <br />
-      60分 : ¥5,500円<br />
-    </div>
+            {/* ↓ 料金と例をまとめて1つの枠に */}
+            <div className="flex flex-col items-center justify-center text-black border border-black rounded-xl p-8 bg-white shadow-md max-w-2xl mx-auto mt-8">
+              
+              {/* 料金部分 */}
+              <div className="text-3xl font-bold mb-6 text-center">
+                30分 : ¥3,500円<br />
+                <br />
+                60分 : ¥5,500円
+              </div>
 
-    {/* 仕切り線（中央） */}
-    <div className="hidden md:block border-l border-gray-400 mx-10 h-40"></div>
+              {/* 中央の仕切り線 */}
+              <div className="w-24 border-t-2 border-gray-400 my-4"></div>
 
-    {/* 右側：(例) 部分 */}
-    <div className="text-left text-lg font-medium text-black leading-relaxed w-full md:w-1/2">
-      <span className="block mb-2">( 例 )</span>
-      肩こり ＋ 骨盤矯正 ＝ 30分 ( ¥3,500円 )<br />
-      <br />
-      猫背矯正 ＋ 腰痛 ＋ 首こり ＝ 60分 ( ¥5,500円 )<br />
-    </div>
+              {/* 例の部分 */}
+              <div className="text-lg font-medium text-left leading-relaxed">
+                <span className="block mb-2 text-center">( 例 )</span>
+                肩こり ＋ 骨盤矯正 ＝ 30分 ( ¥3,500円 )<br />
+                <br />
+                猫背矯正 ＋ 腰痛 ＋ 首こり ＝ 60分 ( ¥5,500円 )
+              </div>
+            </div>
+          </p>
+        </div>
 
-  </div>
-</p>
-
-
+        {/* ↓ 施術内容のカード部分 */}
         <div className="grid md:grid-cols-2 gap-6">
           {services.map((service, index) => {
             const Icon = service.icon
@@ -87,7 +91,9 @@ export function Services() {
                   </div>
                 </CardHeader>
                 <CardContent>
-                  <CardDescription className="text-base leading-relaxed">{service.description}</CardDescription>
+                  <CardDescription className="text-base leading-relaxed">
+                    {service.description}
+                  </CardDescription>
                 </CardContent>
               </Card>
             )
@@ -97,3 +103,4 @@ export function Services() {
     </section>
   )
 }
+
