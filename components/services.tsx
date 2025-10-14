@@ -43,13 +43,15 @@ export function Services() {
           <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-4 text-balance">施術内容 ・ 料金</h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed">
             お客様の症状やご要望に合わせて、下記の施術内容からオーダーメイドで施術致します。<br />
+            
            <div className="flex flex-col items-center justify-center text-3xl font-bold text-black border border-black rounded-lg p-6">
   30分 : ¥3,500円<br />
-  60分 : ¥5,500円
+  60分 : ¥5,500円<br />
+
 </div>
-            ( 例 ) 肩こり ＋ 腰痛 ＝ 30分 3,500円<br />
-                   猫背矯正 ＋ 骨盤矯正 ＝ 60分 5,500円<br />
-            
+
+            ( 例 ) 肩こり ＋ 骨盤矯正 ＝ 30分 3,500円<br />
+                   猫背矯正 ＋ 腰痛 ＝ 60分 5,500円<br />
           </p>
         </div>
 
