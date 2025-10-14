@@ -22,19 +22,19 @@ export function About() {
 
           <div className="order-1 md:order-2 space-y-6">
             <h2 className="text-3xl md:text-5xl font-bold text-foreground text-balance">
-            てのひら<span className="text-primary"></span>について
+            「てのひら」について
+
             </h2>
 
             <p className="text-lg text-muted-foreground leading-relaxed">
               てのひらは、福山市で活動する「出張整体」です。
               
-              お子様でも安心して受けれる、ソフトで優しい施術をします。
+              
+              お子様でも安心して受けれる、ソフトで優しい施術を致します。
             </p>
 
             <p className="text-lg text-muted-foreground leading-relaxed">
-              お仕事が忙しい、子ども連れで通院しにくい
-              
-              交通事故でお悩みの方はぜひ一度ご相談ください。
+              お仕事が忙しい、子ども連れで通院しにくい、交通事故でお悩みの方はぜひ一度ご相談ください。
 
               国家資格を持つ柔道整復師がサポートさせて頂きます。
             </p>
