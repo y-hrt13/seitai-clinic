@@ -27,12 +27,16 @@ export function About() {
 
             <p className="text-lg text-muted-foreground leading-relaxed">
               てのひらは、福山市で活動する「出張整体」です。
-              お子様でも安心して受けて頂けるような、ソフトで優しい施術を提供いたします。
+              
+              お子様でも安心して受けれる、ソフトで優しい施術をします。
             </p>
 
             <p className="text-lg text-muted-foreground leading-relaxed">
-              お仕事が忙しい、お子連れでなかなか通院が難しい、交通事故でお悩みの方はぜひ一度ご相談ください。
-              国家資格を持つ柔道整復師が、サポートさせて頂きます。
+              お仕事が忙しい、子ども連れで通院しにくい
+              
+              交通事故でお悩みの方はぜひ一度ご相談ください。
+
+              国家資格を持つ柔道整復師がサポートさせて頂きます。
             </p>
 
             <div className="space-y-3 pt-4">
