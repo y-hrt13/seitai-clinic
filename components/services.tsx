@@ -4,26 +4,26 @@ import { Brain, Dumbbell, Activity, Zap } from "lucide-react"
 const services = [
   {
     icon: Brain,
-      title: "首肩こり・猫背矯正",
+      title: "首こり・肩こり・猫背矯正",
       description:
         "首や肩の筋肉の緊張をほぐしていきます。猫背に関係してくる関節・筋肉へのアプローチをしていきます。",
-    duration: "30分",
-    price: "¥3,500",
+    duration: "30分～60分",
+    price: "¥3,500～¥5,500"
   },
   {
     icon: Dumbbell,
   title: "腰痛・反り腰・骨盤矯正",
     description:
       "腰や下肢の筋肉の緊張をほぐしていきます。股関節や背骨の歪みを整えていくことで反り腰・痛みを改善していきます。",
-    duration: "30分",
-    price: "¥3,500",
+    duration: "30分～60分",
+    price: "¥3,500～¥5,500"
   },
   {
     icon: Activity,
   title: "産後ケア",
     description: "骨盤矯正をしていきます。骨盤だけではなく「歩き方・立ち方・座り方」など妊娠中に出来た良くない癖を改善していく中で、育児で疲労した身体を整えていきます。",
-    duration: "30分",
-    price: "¥3,500",
+    duration: "30分～60分",
+    price: "¥3,500～¥5,500",
   },
   {
     icon: Zap,
@@ -40,7 +40,7 @@ export function Services() {
     <section id="services" className="py-20 px-4 bg-muted/30">
       <div className="container mx-auto max-w-6xl">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-4 text-balance">施術内容</h2>
+          <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-4 text-balance">施術内容・料金</h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed">
             お客様の症状やご要望に合わせて、オーダーメイドの施術をご提案いたします。
           </p>

@@ -7,7 +7,7 @@ export function Footer() {
             <h3 className="text-lg font-semibold text-foreground mb-2">てのひら</h3>
             <p className="text-xs text-muted-foreground mb-3">10年後も健康で美しくいるために</p>
             <p className="text-sm text-muted-foreground leading-relaxed">
-              福山市でお体の不調にお悩みなら。
+              福山市で整体をお探しの方へ。
               <br />
               根本改善をサポートします。
             </p>

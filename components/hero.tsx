@@ -13,7 +13,8 @@ export function Hero() {
           </h1>
 
           <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed text-pretty">
-            出産後のケアがしたいけど、子どもを連れていけない．．．
+            お仕事が忙しくて受診しにくい方
+            出産後のケアがしたいけど、子どもを連れていけれない．．．
             <br />
             料金が高くて何回も通うのは難しい．．．
             そんな方こそ、ぜひ一度ご相談下さい。
@@ -25,7 +26,7 @@ export function Hero() {
               <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
             </Button>
             <Button size="lg" variant="outline">
-              施術内容を見る
+              施術内容・料金を見る
             </Button>
           </div>
         </div>
