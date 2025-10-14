@@ -7,7 +7,7 @@ const services = [
       title: "首こり・肩こり・猫背矯正",
       description:
         "首や肩の筋肉の緊張をほぐしていきます。猫背に関係してくる関節・筋肉へのアプローチをしていきます。",
-    duration: "30分～60分",
+    duration: "30分",
     price: "¥3,500～¥5,500"
   },
   {
@@ -42,7 +42,12 @@ export function Services() {
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-4 text-balance">施術内容 ・ 料金</h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            お客様の症状やご要望に合わせて、オーダーメイドの施術をご提案いたします。
+            お客様の症状やご要望に合わせて、下記の施術内容からオーダーメイドで時間内に施術致します。<br />
+            30分 : ¥3,500円<br />
+            60分 : ¥5,500円<br />
+            ( 例 ) 肩こり ＋ 腰痛 ＝ 30分 3,500円<br />
+                   猫背 　＋ 骨盤 ＝ 60分 5,500円<br />
+            
           </p>
         </div>
 
