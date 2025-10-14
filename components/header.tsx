@@ -61,12 +61,12 @@ export function Header() {
         {isMenuOpen && (
           <nav className="md:hidden mt-4 pb-4 flex flex-col gap-4">
             <a href="#services" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-              施術内容・料金
+              施術内容 ・ 料金
             </a>
             <a href="#about" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
               「てのひら」 について
             </a>  
-            <a href="#about" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+            <a href="#staff" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
               スタッフ紹介
             </a>
             <a href="#contact" className="text-sm text-muted-foreground hover:text-foreground transition-colors">

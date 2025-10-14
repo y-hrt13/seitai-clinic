@@ -40,7 +40,7 @@ export function Services() {
     <section id="services" className="py-20 px-4 bg-muted/30">
       <div className="container mx-auto max-w-6xl">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-4 text-balance">施術内容・料金</h2>
+          <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-4 text-balance">施術内容 ・ 料金</h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed">
             お客様の症状やご要望に合わせて、オーダーメイドの施術をご提案いたします。
           </p>
