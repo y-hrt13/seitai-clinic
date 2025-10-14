@@ -44,7 +44,7 @@ export function Contact() {
                 <p className="text-foreground">現在、イベントの予定はありません。</p>
                 <p className="text-foreground">〇〇〇〇</p>
                 <p className="text-sm text-muted-foreground">福山駅より徒歩〇〇分</p>
-                <p className="text-sm text-muted-foreground">駐車場完備</p>
+                <p className="text-sm text-muted-foreground">駐車場〇〇</p>
               </CardContent>
             </Card>
 
