@@ -13,10 +13,12 @@ export function Director() {
 
             <div className="space-y-4 text-foreground/80 leading-relaxed">
             福山市で生まれ育ち、地域の皆様の健康をサポートしたいという想いから
+            
                 
             《出張整体 てのひら》を初めました。
 
 
+              
               <p>
                 肩こり・腰痛など現代人特有の症状に対して根本的な改善を目指した施術を提供しています。
 
