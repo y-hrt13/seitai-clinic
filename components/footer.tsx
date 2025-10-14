@@ -27,7 +27,7 @@ export function Footer() {
                 </a>
               </li>
               <li>
-                <a href="#about" className="hover:text-foreground transition-colors">
+                <a href="#ataff" className="hover:text-foreground transition-colors">
                   スタッフ紹介
                 </a>
               </li>
