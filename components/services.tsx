@@ -47,7 +47,7 @@ export function Services() {
            <div className="flex flex-col items-center justify-center text-3xl font-bold text-black border border-black rounded-lg p-6">
   30分 : ¥3,500円<br />
   60分 : ¥5,500円<br />
-
+<br />
 </div>
 
             ( 例 ) 肩こり ＋ 骨盤矯正 ＝ 30分 3,500円<br />
