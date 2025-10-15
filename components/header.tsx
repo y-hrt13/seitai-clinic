@@ -35,33 +35,44 @@ export function Header() {
 
           {/* --- PCナビゲーション --- */}
           <nav className="hidden md:flex items-center gap-6">
-            <a
-              href="#services"
-              className="text-sm px-4 py-2 border border-black rounded-full text-black bg-white hover:bg-black hover:text-white transition-colors"
-            >
-              施術内容 ・ 料金
-            </a>
-            <a
-              href="#about"
-              className="text-sm px-4 py-2 border border-black rounded-full text-black bg-white hover:bg-black hover:text-white transition-colors"
-            >
-              「てのひら」 について
-            </a>
-            <a
-              href="#staff"
-              className="text-sm px-4 py-2 border border-black rounded-full text-black bg-white hover:bg-black hover:text-white transition-colors"
-            >
-              スタッフ紹介
-            </a>
-            <a
-              href="https://forms.gle/J9rucSxzn2ymx6qaA"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-sm px-4 py-2 border border-black rounded-full text-black bg-white hover:bg-black hover:text-white transition-colors"
-            >
-              ご予約
-            </a>
-          </nav>
+  <a
+    href="#services"
+    className="text-sm px-4 py-2 border border-black rounded-full text-black bg-white hover:bg-black hover:text-white transition-colors"
+  >
+    施術内容 ・ 料金
+  </a>
+  <a
+    href="#about"
+    className="text-sm px-4 py-2 border border-black rounded-full text-black bg-white hover:bg-black hover:text-white transition-colors"
+  >
+    「てのひら」 について
+  </a>
+  <a
+    href="#staff"
+    className="text-sm px-4 py-2 border border-black rounded-full text-black bg-white hover:bg-black hover:text-white transition-colors"
+  >
+    スタッフ紹介
+  </a>
+
+  {/* Instagramリンク追加 */}
+  <a
+    href="https://www.instagram.com/y.hrt13?igsh=MTRuZXNhM3l0Z3l5bA%3D%3D&utm_source=qr"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-sm px-4 py-2 border border-black rounded-full text-black bg-white hover:bg-black hover:text-white transition-colors"
+  >
+    Instagram
+  </a>
+
+  <a
+    href="https://forms.gle/J9rucSxzn2ymx6qaA"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-sm px-4 py-2 border border-black rounded-full text-black bg-white hover:bg-black hover:text-white transition-colors"
+  >
+    ご予約
+  </a>
+</nav>
 
           {/* --- スマホナビゲーション --- */}
           <div className="flex items-center gap-2 md:hidden">
