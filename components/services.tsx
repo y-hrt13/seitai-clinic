@@ -52,26 +52,33 @@ export function Services() {
 
           {/* 左側：料金 */}
           {/* 左側：料金 */}
-{/* 左側：料金 */}
-<div className="flex flex-col justify-center items-center text-2xl md:text-3xl font-bold text-black w-full md:w-1/2 text-center space-y-2">
-  {/* 30分 */}
-  <div className="flex items-center gap-3">
-    <span className="text-gray-700 text-4xl leading-none">□</span>
-    <span>30分 : 3,500円</span>
-  </div>
+{/* 左側：料金（中央揃え & 縦整列） */}
+<div className="flex flex-col justify-center items-center w-full md:w-1/2 text-center space-y-3">
 
-  {/* 60分 */}
-  <div className="flex items-center gap-3">
-    <span className="text-gray-700 text-4xl leading-none">□</span>
-    <span>60分 : 5,500円</span>
-  </div>
+  {/* 料金全体のフォントサイズ統一 */}
+  <div className="text-2xl md:text-3xl font-bold text-black space-y-3">
 
-  {/* 初回割引 */}
-  <div className="flex items-center gap-3 mb-6 md:mb-8">
-    <span className="text-gray-700 text-4xl leading-none">□</span>
-    <span>初回 : 500円引き</span>
+    {/* 30分 */}
+    <div className="flex items-center justify-center gap-3">
+      <span className="text-gray-700 text-3xl md:text-4xl leading-none">□</span>
+      <span>30分 : 3,500円</span>
+    </div>
+
+    {/* 60分 */}
+    <div className="flex items-center justify-center gap-3">
+      <span className="text-gray-700 text-3xl md:text-4xl leading-none">□</span>
+      <span>60分 : 5,500円</span>
+    </div>
+
+    {/* 初回割引（少し小さく・薄赤色） */}
+    <div className="flex items-center justify-center gap-3 mt-2">
+      <span className="text-gray-700 text-3xl md:text-4xl leading-none">□</span>
+      <span className="text-base md:text-lg font-semibold text-red-400">初回 : 500円引き</span>
+    </div>
+
   </div>
 </div>
+
 
 
 {/* 中央の黒線（外枠と同じ太さ） */}
