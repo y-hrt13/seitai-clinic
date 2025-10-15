@@ -35,93 +35,79 @@ const services = [
 export function Services() {
   return (
     <section id="services" className="py-20 px-4 bg-muted/30">
-  <div className="text-center mb-16">
-    <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-4 text-balance">
-      施術内容 ・ 料金
-    </h2>
+      <div className="text-center mb-16">
+        <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-4 text-balance">
+          施術内容 ・ 料金
+        </h2>
 
-    <p className="text-lg text-muted-foreground max-w-4xl mx-auto leading-relaxed">
-      お客様の症状やご要望に合わせて、下記の施術内容からオーダーメイドで施術致します。
-      <br />
+        <p className="text-lg text-muted-foreground max-w-4xl mx-auto leading-relaxed">
+          お客様の症状やご要望に合わせて、下記の施術内容からオーダーメイドで施術致します。
+        </p>
 
-      {/* 全体を黒枠で囲む（下にスペースを追加 → mb-12） */}
-      <div className="border-2 border-black rounded-lg p-6 mt-6 mb-12">
+        {/* 黒枠（全体を中央に配置） */}
+        <div className="border-2 border-black rounded-lg p-6 mt-8 mb-12 flex flex-col md:flex-row justify-center items-center text-center">
 
-        {/* 横並び：左が料金表、右が例文、中央に黒線 */}
-        <div className="flex flex-col md:flex-row justify-between items-stretch">
-
-          {/* 左側：料金 */}
-          {/* 左側：料金 */}
-{/* 左側：料金（中央揃え & 縦整列） */}
-<div className="flex flex-col justify-center items-center w-full md:w-1/2 text-center space-y-3">
-
-  {/* 料金全体のフォントサイズ統一 */}
-  <div className="text-2xl md:text-3xl font-bold text-black space-y-3">
-
-    {/* 30分 */}
-    <div className="flex items-center justify-center gap-3">
-      <span className="text-gray-700 text-3xl md:text-4xl leading-none">□</span>
-      <span>30分 : 3,500円</span>
-    </div>
-
-    {/* 60分 */}
-    <div className="flex items-center justify-center gap-3">
-      <span className="text-gray-700 text-3xl md:text-4xl leading-none">□</span>
-      <span>60分 : 5,500円</span>
-    </div>
-
-    {/* 初回割引（少し小さく・薄赤色） */}
-    <div className="flex items-center justify-center gap-3 mt-2">
-      <span className="text-gray-700 text-3xl md:text-4xl leading-none">□</span>
-      <span className="text-base md:text-lg font-semibold text-red-400">初回 : 500円引き</span>
-    </div>
-
-  </div>
-</div>
-
-
-
-{/* 中央の黒線（外枠と同じ太さ） */}
-<div className="hidden md:block border-l-2 border-black mx-8"></div>
-
-{/* 右側：(例) */}
-<div className="flex flex-col justify-center text-left text-base md:text-lg font-medium text-black leading-relaxed w-full md:w-1/2">
-  <span className="block mb-2 text-sm md:text-base">( 例 )</span>
-  肩こり ＋ 骨盤矯正 ＝ 30分 ( 3,500円 )
-  <br />
-  <br />
-  猫背矯正 ＋ 腰痛 ＋ 首こり ＝ 60分 ( 5,500円 )
-</div>
-
-        </div>
-      </div>
-    </p>
-  </div>
-
-  {/* 下の施術内容カード一覧 */}
-  <div className="grid md:grid-cols-2 gap-6">
-    {services.map((service, index) => {
-      const Icon = service.icon
-      return (
-        <Card key={index} className="border-border hover:shadow-lg transition-shadow">
-          <CardHeader>
-            <div className="flex items-start gap-4">
-              <div className="p-3 rounded-lg bg-primary/10">
-                <Icon className="h-6 w-6 text-primary" />
+          {/* 左側：料金（縦中央揃え） */}
+          <div className="flex flex-col justify-center items-center w-full md:w-1/2 space-y-3">
+            <div className="text-2xl md:text-3xl font-bold text-black space-y-3">
+              <div className="flex items-center justify-center gap-3">
+                <span className="text-gray-700 text-3xl md:text-4xl leading-none">□</span>
+                <span>30分 : 3,500円</span>
               </div>
-              <div className="flex-1">
-                <CardTitle className="text-xl mb-2">{service.title}</CardTitle>
-                <CardDescription className="text-base leading-relaxed">
-                  {service.description}
-                </CardDescription>
+
+              <div className="flex items-center justify-center gap-3">
+                <span className="text-gray-700 text-3xl md:text-4xl leading-none">□</span>
+                <span>60分 : 5,500円</span>
+              </div>
+
+              <div className="flex items-center justify-center gap-3 mt-1">
+                <span className="text-gray-700 text-3xl md:text-4xl leading-none">□</span>
+                <span className="text-base md:text-lg font-semibold text-red-400">
+                  初回 : 500円引き
+                </span>
               </div>
             </div>
-          </CardHeader>
-        </Card>
-      )
-    })}
-  </div>
-</section>
+          </div>
+
+          {/* 中央の黒線 */}
+          <div className="hidden md:block border-l-2 border-black mx-8 h-40"></div>
+
+          {/* 右側：(例) 部分 */}
+          <div className="flex flex-col justify-center items-center text-black w-full md:w-1/2 text-center">
+            <span className="block mb-2 text-sm md:text-base">( 例 )</span>
+            <div className="text-sm md:text-base font-medium leading-snug">
+              肩こり ＋ 骨盤矯正 ＝ 30分 ( 3,500円 )
+              <br />
+              猫背矯正 ＋ 腰痛 ＋ 首こり ＝ 60分 ( 5,500円 )
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* 下の施術内容カード一覧 */}
+      <div className="grid md:grid-cols-2 gap-6">
+        {services.map((service, index) => {
+          const Icon = service.icon
+          return (
+            <Card key={index} className="border-border hover:shadow-lg transition-shadow">
+              <CardHeader>
+                <div className="flex items-start gap-4">
+                  <div className="p-3 rounded-lg bg-primary/10">
+                    <Icon className="h-6 w-6 text-primary" />
+                  </div>
+                  <div className="flex-1">
+                    <CardTitle className="text-xl mb-2">{service.title}</CardTitle>
+                    <CardDescription className="text-base leading-relaxed">
+                      {service.description}
+                    </CardDescription>
+                  </div>
+                </div>
+              </CardHeader>
+            </Card>
+          )
+        })}
+      </div>
+    </section>
   )
 }
 
