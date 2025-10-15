@@ -82,7 +82,7 @@ export function Contact() {
   <CardHeader>
     <CardTitle className="text-center">Instagram</CardTitle>
     <CardDescription className="text-center text-black">
-      最新情報や施術の様子を更新しています♪
+      プライベートの様子も更新していきます♪
     </CardDescription>
   </CardHeader>
   <CardContent className="flex flex-col items-center justify-center space-y-4">
