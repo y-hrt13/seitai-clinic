@@ -5,21 +5,25 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { Clock, MapPin, Phone } from "lucide-react"
+import Image from "next/image"
 
 export function Contact() {
   return (
     <section id="contact" className="py-20 px-4 bg-muted/30">
       <div className="container mx-auto max-w-6xl">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-4 text-balance">ご予約 ・ お問い合わせ</h2>
+          <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-4 text-balance">
+            ご予約 ・ お問い合わせ
+          </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed">
             ご予約 ・ ご相談は、お電話 ・ 公式LINEでも受け付けております。
           </p>
         </div>
 
         <div className="grid md:grid-cols-2 gap-8">
-          {/* Contact Information */}
+          {/* --- 左側：連絡情報 --- */}
           <div className="space-y-6">
+            {/* 電話予約 */}
             <Card className="border-border">
               <CardHeader>
                 <CardTitle className="flex items-center gap-2">
@@ -29,10 +33,13 @@ export function Contact() {
               </CardHeader>
               <CardContent>
                 <p className="text-2xl font-bold text-primary mb-2">070-8556-1051</p>
-                <p className="text-sm text-muted-foreground">受付時間：9:00〜20:00（ 日曜 ・ 祝日定休 ）</p>
+                <p className="text-sm text-muted-foreground">
+                  受付時間：9:00〜20:00（ 日曜 ・ 祝日定休 ）
+                </p>
               </CardContent>
             </Card>
 
+            {/* イベント情報 */}
             <Card className="border-border">
               <CardHeader>
                 <CardTitle className="flex items-center gap-2">
@@ -48,6 +55,7 @@ export function Contact() {
               </CardContent>
             </Card>
 
+            {/* 営業時間 */}
             <Card className="border-border">
               <CardHeader>
                 <CardTitle className="flex items-center gap-2">
@@ -68,46 +76,35 @@ export function Contact() {
             </Card>
           </div>
 
-          {/* Contact Form */}
-          <Card className="border-border">
+          {/* --- 右側：Instagram案内 --- */}
+          <Card className="border-2 border-pink-200 bg-pink-50 text-black">
             <CardHeader>
-              <CardTitle>お問い合わせフォーム</CardTitle>
-              <CardDescription>24時間受付中。2営業日以内にご返信いたします</CardDescription>
+              <CardTitle className="text-center">Instagram</CardTitle>
+              <CardDescription className="text-center text-black">
+                最新情報や施術の様子を更新しています♪
+              </CardDescription>
             </CardHeader>
-            <CardContent>
-              <form className="space-y-4">
-                <div className="space-y-2">
-                  <label htmlFor="name" className="text-sm font-medium text-foreground">
-                    お名前 <span className="text-destructive">*</span>
-                  </label>
-                  <Input id="name" placeholder="" required />
-                </div>
+            <CardContent className="flex flex-col items-center justify-center space-y-4">
+              {/* Instagram画像 */}
+              <div className="w-full rounded-xl overflow-hidden shadow-md">
+                <Image
+                  src="/instagram-sample.jpg" // ←あなたの画像ファイルに変更
+                  alt="Instagramページのイメージ"
+                  width={600}
+                  height={400}
+                  className="object-cover w-full h-auto"
+                />
+              </div>
 
-                <div className="space-y-2">
-                  <label htmlFor="email" className="text-sm font-medium text-foreground">
-                    電話番号 <span className="text-destructive">*</span>
-                  </label>
-                  <Input id="email" type="email" placeholder="" required />
-                </div>
-
-                <div className="space-y-2">
-                  <label htmlFor="phone" className="text-sm font-medium text-foreground">
-                    出張先　ご住所
-                  </label>
-                  <Input id="phone" type="tel" placeholder="" />
-                </div>
-
-                <div className="space-y-2">
-                  <label htmlFor="message" className="text-sm font-medium text-foreground">
-                    お問い合わせ内容 <span className="text-destructive">*</span>
-                  </label>
-                  <Textarea id="message" placeholder="事前に相談したいことを入力してください。" rows={5} required />
-                </div>
-
-                <Button type="submit" className="w-full bg-primary text-primary-foreground hover:bg-primary/90">
-                  送信する
-                </Button>
-              </form>
+              {/* Instagramボタン */}
+              <a
+                href="https://www.instagram.com/y.hrt13?igsh=MTRuZXNhM3l0Z3l5bA%3D%3D&utm_source=qr"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block border border-pink-300 bg-pink-100 text-black rounded-xl px-6 py-3 font-semibold hover:bg-pink-200 transition-all"
+              >
+                Instagramを見てみる♪
+              </a>
             </CardContent>
           </Card>
         </div>
@@ -115,3 +112,4 @@ export function Contact() {
     </section>
   )
 }
+
