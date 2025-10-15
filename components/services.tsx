@@ -44,24 +44,25 @@ export function Services() {
           お客様の症状やご要望に合わせて、下記の施術内容からオーダーメイドで施術致します。
         </p>
 
-        {/* 黒枠（全体を中央に配置） */}
-        <div className="border-2 border-black rounded-lg p-6 mt-8 mb-12 flex flex-col md:flex-row justify-center items-center text-center">
+        {/* 黒枠エリア */}
+        <div className="border-2 border-black rounded-lg p-6 mt-8 mb-12 flex flex-col md:flex-row justify-center items-stretch">
 
-          {/* 左側：料金（縦中央揃え） */}
-          <div className="flex flex-col justify-center items-center w-full md:w-1/2 space-y-3">
+          {/* 左側：料金（縦の□を完全に揃える） */}
+          <div className="flex flex-col justify-center items-center w-full md:w-1/2">
             <div className="text-2xl md:text-3xl font-bold text-black space-y-3">
+              {/* 各行の□を同じ幅のflex boxに */}
               <div className="flex items-center justify-center gap-3">
-                <span className="text-gray-700 text-3xl md:text-4xl leading-none">□</span>
+                <span className="text-gray-700 text-3xl md:text-4xl w-6 text-center leading-none">□</span>
                 <span>30分 : 3,500円</span>
               </div>
 
               <div className="flex items-center justify-center gap-3">
-                <span className="text-gray-700 text-3xl md:text-4xl leading-none">□</span>
+                <span className="text-gray-700 text-3xl md:text-4xl w-6 text-center leading-none">□</span>
                 <span>60分 : 5,500円</span>
               </div>
 
-              <div className="flex items-center justify-center gap-3 mt-1">
-                <span className="text-gray-700 text-3xl md:text-4xl leading-none">□</span>
+              <div className="flex items-center justify-center gap-3">
+                <span className="text-gray-700 text-3xl md:text-4xl w-6 text-center leading-none">□</span>
                 <span className="text-base md:text-lg font-semibold text-red-400">
                   初回 : 500円引き
                 </span>
@@ -70,9 +71,9 @@ export function Services() {
           </div>
 
           {/* 中央の黒線 */}
-          <div className="hidden md:block border-l-2 border-black mx-8 h-40"></div>
+          <div className="hidden md:block border-l-2 border-black mx-8"></div>
 
-          {/* 右側：(例) 部分 */}
+          {/* 右側：(例)（黒枠中央に配置） */}
           <div className="flex flex-col justify-center items-center text-black w-full md:w-1/2 text-center">
             <span className="block mb-2 text-sm md:text-base">( 例 )</span>
             <div className="text-sm md:text-base font-medium leading-snug">
