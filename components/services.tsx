@@ -82,14 +82,14 @@ export function Services() {
 {/* 中央の黒線（外枠と同じ太さ） */}
 <div className="hidden md:block border-l-2 border-black mx-8"></div>
 
-{/* 右側：(例) */}
-<div className="flex flex-col justify-center text-left text-base md:text-lg font-medium text-black leading-relaxed w-full md:w-1/2">
-  <span className="block mb-2 text-sm md:text-base">( 例 )</span>
+<div className="flex flex-col justify-center text-left text-sm md:text-base font-medium text-black leading-relaxed w-full md:w-1/2">
+  <span className="block mb-2 text-xs md:text-sm">( 例 )</span>
   肩こり ＋ 骨盤矯正 ＝ 30分 ( 3,500円 )
   <br />
   <br />
   猫背矯正 ＋ 腰痛 ＋ 首こり ＝ 60分 ( 5,500円 )
 </div>
+
 
         </div>
       </div>
