@@ -53,23 +53,37 @@ export function Services() {
           {/* 左側：料金 */}
           {/* 左側：料金 */}
 {/* 左側：料金 */}
-<div className="flex flex-col justify-center items-center text-3xl md:text-4xl font-bold text-black w-full md:w-1/2 text-center space-y-3">
-  {/* 30分コース */}
-  <label className="flex items-center gap-3">
-    <input type="checkbox" className="w-5 h-5 accent-primary" />
+<div className="flex flex-col justify-center items-center text-3xl md:text-4xl font-bold text-black w-full md:w-1/2 text-center space-y-2">
+  {/* 30分 */}
+  <div className="flex items-center gap-3">
+    <span className="text-green-600 text-4xl leading-none">✔</span>
     <span>30分 : 3,500円</span>
-  </label>
+  </div>
 
-  {/* 60分コース */}
-  <label className="flex flex-col items-center gap-2">
-    <div className="flex items-center gap-3">
-      <input type="checkbox" className="w-5 h-5 accent-primary" />
-      <span>60分 : 5,500円</span>
-    </div>
-    <span className="text-base md:text-lg font-medium text-red-600">初回 : 500円引き</span>
-  </label>
+  {/* 60分 */}
+  <div className="flex items-center gap-3">
+    <span className="text-green-600 text-4xl leading-none">✔</span>
+    <span>60分 : 5,500円</span>
+  </div>
+
+  {/* 初回割引 */}
+  <div className="flex items-center gap-3">
+    <span className="text-green-600 text-4xl leading-none">✔</span>
+    <span>初回 : 500円引き</span>
+  </div>
 </div>
 
+{/* 中央の黒線（外枠と同じ太さ） */}
+<div className="hidden md:block border-l-2 border-black mx-8"></div>
+
+{/* 右側：(例) */}
+<div className="flex flex-col justify-center text-left text-base md:text-lg font-medium text-black leading-relaxed w-full md:w-1/2">
+  <span className="block mb-2 text-sm md:text-base">( 例 )</span>
+  肩こり ＋ 骨盤矯正 ＝ 30分 ( 3,500円 )
+  <br />
+  <br />
+  猫背矯正 ＋ 腰痛 ＋ 首こり ＝ 60分 ( 5,500円 )
+</div>
 
         </div>
       </div>
