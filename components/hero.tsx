@@ -26,34 +26,34 @@ export function Hero() {
           </p>
 
           {/* --- 予約・相談ボタン3つ --- */}
-          <div className="flex flex-wrap justify-center items-center gap-4 pt-4">
+          <div className="flex justify-center items-center gap-3 sm:gap-6 pt-4 flex-wrap sm:flex-nowrap">
             {/* LINE相談 */}
             <a
               href="https://lin.ee/"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex flex-col items-center justify-center w-28 h-28 sm:w-32 sm:h-32 rounded-2xl bg-green-500 text-white shadow-lg hover:bg-green-600 transition-all"
+              className="flex flex-col items-center justify-center w-24 h-24 sm:w-28 sm:h-28 rounded-xl bg-green-500 text-white shadow-lg hover:bg-green-600 transition-all"
             >
-              <MessageCircle className="w-8 h-8 sm:w-10 sm:h-10 mb-1" />
-              <span className="text-xs sm:text-sm font-semibold">LINE相談</span>
+              <MessageCircle className="w-7 h-7 sm:w-9 sm:h-9 mb-1" />
+              <span className="text-[11px] sm:text-sm font-semibold">LINE相談</span>
             </a>
 
             {/* 電話予約 */}
             <a
               href="tel:080-XXXX-XXXX"
-              className="flex flex-col items-center justify-center w-28 h-28 sm:w-32 sm:h-32 rounded-2xl bg-orange-500 text-white shadow-lg hover:bg-orange-600 transition-all"
+              className="flex flex-col items-center justify-center w-24 h-24 sm:w-28 sm:h-28 rounded-xl bg-orange-500 text-white shadow-lg hover:bg-orange-600 transition-all"
             >
-              <Phone className="w-8 h-8 sm:w-10 sm:h-10 mb-1" />
-              <span className="text-xs sm:text-sm font-semibold">電話予約</span>
+              <Phone className="w-7 h-7 sm:w-9 sm:h-9 mb-1" />
+              <span className="text-[11px] sm:text-sm font-semibold">電話予約</span>
             </a>
 
             {/* ネット予約 */}
             <a
               href="#contact"
-              className="flex flex-col items-center justify-center w-28 h-28 sm:w-32 sm:h-32 rounded-2xl bg-blue-500 text-white shadow-lg hover:bg-blue-600 transition-all"
+              className="flex flex-col items-center justify-center w-24 h-24 sm:w-28 sm:h-28 rounded-xl bg-blue-500 text-white shadow-lg hover:bg-blue-600 transition-all"
             >
-              <Mail className="w-8 h-8 sm:w-10 sm:h-10 mb-1" />
-              <span className="text-xs sm:text-sm font-semibold">ネット予約</span>
+              <Mail className="w-7 h-7 sm:w-9 sm:h-9 mb-1" />
+              <span className="text-[11px] sm:text-sm font-semibold">ネット予約</span>
             </a>
           </div>
         </div>
