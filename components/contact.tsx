@@ -16,7 +16,7 @@ export function Contact() {
             ご予約 ・ お問い合わせ
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            ご予約 ・ ご相談は、お電話 ・ 公式LINEでも受け付けております。
+            お電話 ・ 公式LINEでも受け付けております。
           </p>
         </div>
 
