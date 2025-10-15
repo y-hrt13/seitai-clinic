@@ -1,5 +1,6 @@
-import { Button } from "@/components/ui/button"
-import { ArrowRight } from "lucide-react"
+"use client"
+
+import { MessageCircle, Phone, Mail } from "lucide-react"
 
 export function Hero() {
   return (
@@ -24,22 +25,36 @@ export function Hero() {
             そんな方こそ、ぜひ一度ご相談下さい。
           </p>
 
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-4">
-            {/* 初回クーポンボタン → クリックで施術内容へ移動 */}
-            <Button asChild size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90 group">
-              <a href="#services" className="flex items-center">
-                初回クーポン
-                <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
-              </a>
-            </Button>
+          {/* --- 予約・相談ボタン3つ --- */}
+          <div className="flex flex-col sm:flex-row justify-center items-center gap-6 pt-6">
+            {/* LINE相談 */}
+            <a
+              href="https://lin.ee/" // ← あなたのLINE公式URLに変更
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex flex-col items-center justify-center w-36 h-36 rounded-2xl bg-green-500 text-white shadow-lg hover:bg-green-600 transition-all"
+            >
+              <MessageCircle className="w-10 h-10 mb-2" />
+              <span className="text-sm font-semibold">LINE相談</span>
+            </a>
 
-            {/* 施術内容・料金ボタン（外枠削除） */}
-            <Button asChild size="lg" variant="outline" className="group">
-              <a href="#services" className="flex items-center">
-                施術内容 ・ 料金
-                <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
-              </a>
-            </Button>
+            {/* 電話予約 */}
+            <a
+              href="tel:080-XXXX-XXXX" // ← 電話番号を設定
+              className="flex flex-col items-center justify-center w-36 h-36 rounded-2xl bg-orange-500 text-white shadow-lg hover:bg-orange-600 transition-all"
+            >
+              <Phone className="w-10 h-10 mb-2" />
+              <span className="text-sm font-semibold">電話予約</span>
+            </a>
+
+            {/* ネット予約 */}
+            <a
+              href="#contact" // ← あなたの予約フォームなどにリンク
+              className="flex flex-col items-center justify-center w-36 h-36 rounded-2xl bg-blue-500 text-white shadow-lg hover:bg-blue-600 transition-all"
+            >
+              <Mail className="w-10 h-10 mb-2" />
+              <span className="text-sm font-semibold">ネット予約</span>
+            </a>
           </div>
         </div>
 
