@@ -29,7 +29,7 @@ export function Hero() {
           <div className="flex justify-center items-center gap-3 sm:gap-6 pt-4 flex-wrap sm:flex-nowrap">
             {/* LINE相談 */}
             <a
-              href="https://lin.ee/"
+              href="https://lin.ee/OrfRSuC"
               target="_blank"
               rel="noopener noreferrer"
               className="flex flex-col items-center justify-center w-24 h-24 sm:w-28 sm:h-28 rounded-xl bg-green-500 text-white shadow-lg hover:bg-green-600 transition-all"
@@ -40,7 +40,7 @@ export function Hero() {
 
             {/* 電話予約 */}
             <a
-              href="tel:080-XXXX-XXXX"
+              href="tel:070-8556-1051"
               className="flex flex-col items-center justify-center w-24 h-24 sm:w-28 sm:h-28 rounded-xl bg-orange-500 text-white shadow-lg hover:bg-orange-600 transition-all"
             >
               <Phone className="w-7 h-7 sm:w-9 sm:h-9 mb-1" />
@@ -49,7 +49,9 @@ export function Hero() {
 
             {/* ネット予約 */}
             <a
-              href="#contact"
+              href="https://forms.gle/J9rucSxzn2ymx6qaA"
+              target="_blank"
+              rel="noopener noreferrer"
               className="flex flex-col items-center justify-center w-24 h-24 sm:w-28 sm:h-28 rounded-xl bg-blue-500 text-white shadow-lg hover:bg-blue-600 transition-all"
             >
               <Mail className="w-7 h-7 sm:w-9 sm:h-9 mb-1" />
