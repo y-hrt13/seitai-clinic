@@ -9,7 +9,7 @@ export function Header() {
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-md border-b border-gray-200">
-      <div className="container mx-auto px-4 py-4">
+      <div className="container mx-auto px-4 py-3">
         <div className="flex items-center justify-between">
           {/* ロゴ＋テキスト */}
           <div className="flex items-center gap-3">
@@ -62,13 +62,15 @@ export function Header() {
           </nav>
 
           {/* --- スマホナビゲーション --- */}
-          <div className="flex items-center gap-3 md:hidden">
-            {/* 「施術・料金」枠ボタン（マークなし） */}
+          <div className="flex items-center gap-2 md:hidden">
+            {/* 「施術・料金」ボタン（2行・角丸四角・小さめ） */}
             <a
               href="#services"
-              className="text-xs px-3 py-1.5 border border-black rounded-full text-black bg-white hover:bg-black hover:text-white transition-colors"
+              className="flex flex-col items-center justify-center text-[11px] px-2 py-1 border border-black rounded-lg text-black bg-white hover:bg-black hover:text-white transition-colors leading-tight"
+              style={{ lineHeight: "1.1em" }}
             >
-              施術 ・ 料金
+              <span>施術内容</span>
+              <span>料金</span>
             </a>
 
             {/* ハンバーガーメニュー */}
@@ -109,3 +111,4 @@ export function Header() {
     </header>
   )
 }
+
