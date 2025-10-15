@@ -17,8 +17,8 @@ export function Header() {
             <Image
               src="/logo.png" // public/logo.png に配置
               alt="てのひら ロゴ"
-              width={40}
-              height={40}
+              width={50}
+              height={50}
               className="object-contain"
             />
             <div className="flex flex-col">
@@ -44,7 +44,7 @@ export function Header() {
     href="#about"
     className="text-sm px-4 py-2 border border-black rounded-full text-black bg-white hover:bg-black hover:text-white transition-colors"
   >
-    「てのひら」 について
+  「てのひら」 について
   </a>
 
   <a
@@ -81,7 +81,7 @@ export function Header() {
               施術内容 ・ 料金
             </a>
             <a href="#about" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-              「てのひら」 について
+            「てのひら」 について
             </a>  
             <a href="#staff" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
               スタッフ紹介
