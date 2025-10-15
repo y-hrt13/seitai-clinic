@@ -11,8 +11,8 @@ export function Header() {
     <header className="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-md border-b border-gray-200">
       <div className="container mx-auto px-4 py-3">
         <div className="flex items-center justify-between">
-          {/* ロゴ＋テキスト */}
-          <div className="flex items-center gap-3">
+          {/* ロゴ＋テキスト（クリックでトップへ） */}
+          <a href="#top" className="flex items-center gap-3">
             <Image
               src="/logo.png"
               alt="てのひら ロゴ"
@@ -31,7 +31,7 @@ export function Header() {
                 10年後も健康で美しくいるために
               </div>
             </div>
-          </div>
+          </a>
 
           {/* --- PCナビゲーション --- */}
           <nav className="hidden md:flex items-center gap-6">
@@ -54,7 +54,9 @@ export function Header() {
               スタッフ紹介
             </a>
             <a
-              href="#contact"
+              href="https://forms.gle/J9rucSxzn2ymx6qaA"
+              target="_blank"
+              rel="noopener noreferrer"
               className="text-sm px-4 py-2 border border-black rounded-full text-black bg-white hover:bg-black hover:text-white transition-colors"
             >
               ご予約
@@ -100,10 +102,18 @@ export function Header() {
               スタッフ紹介
             </a>
             <a
-              href="#contact"
+              href="https://forms.gle/J9rucSxzn2ymx6qaA"
+              target="_blank"
+              rel="noopener noreferrer"
               className="text-sm text-muted-foreground hover:text-foreground transition-colors"
             >
               ご予約
+            </a>
+            <a
+              href="#top"
+              className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+            >
+              トップに戻る
             </a>
           </nav>
         )}
@@ -111,4 +121,5 @@ export function Header() {
     </header>
   )
 }
+
 
