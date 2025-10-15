@@ -77,36 +77,37 @@ export function Contact() {
           </div>
 
           {/* --- 右側：Instagram案内 --- */}
-          <Card className="border-2 border-pink-200 bg-pink-50 text-black">
-            <CardHeader>
-              <CardTitle className="text-center">Instagram</CardTitle>
-              <CardDescription className="text-center text-black">
-                最新情報や施術の様子を更新しています♪
-              </CardDescription>
-            </CardHeader>
-            <CardContent className="flex flex-col items-center justify-center space-y-4">
-              {/* Instagram画像 */}
-              <div className="w-full rounded-xl overflow-hidden shadow-md">
-                <Image
-                  src="/instagram-sample.jpg" // ←あなたの画像ファイルに変更
-                  alt="Instagramページのイメージ"
-                  width={600}
-                  height={400}
-                  className="object-cover w-full h-auto"
-                />
-              </div>
+<Card className="border-2 border-black bg-white text-black">
+  <CardHeader>
+    <CardTitle className="text-center">Instagram</CardTitle>
+    <CardDescription className="text-center text-black">
+      最新情報や施術の様子を更新しています♪
+    </CardDescription>
+  </CardHeader>
+  <CardContent className="flex flex-col items-center justify-center space-y-4">
+    {/* Instagram画像 */}
+    <div className="w-full rounded-xl overflow-hidden shadow-md">
+      <Image
+        src="/instagram-sample.jpg" // ←あなたの画像ファイルに変更
+        alt="Instagramページのイメージ"
+        width={600}
+        height={400}
+        className="object-cover w-full h-auto"
+      />
+    </div>
 
-              {/* Instagramボタン */}
-              <a
-                href="https://www.instagram.com/y.hrt13?igsh=MTRuZXNhM3l0Z3l5bA%3D%3D&utm_source=qr"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-block border border-pink-300 bg-pink-100 text-black rounded-xl px-6 py-3 font-semibold hover:bg-pink-200 transition-all"
-              >
-                Instagramを見てみる♪
-              </a>
-            </CardContent>
-          </Card>
+    {/* Instagramボタンのみ淡いピンクの枠・背景 */}
+    <a
+      href="https://www.instagram.com/y.hrt13?igsh=MTRuZXNhM3l0Z3l5bA%3D%3D&utm_source=qr"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="inline-block border border-pink-300 bg-pink-50 text-black rounded px-4 py-2 font-semibold hover:bg-pink-100 transition-all"
+    >
+      Instagramを見てみる♪
+    </a>
+  </CardContent>
+</Card>
+
         </div>
       </div>
     </section>
