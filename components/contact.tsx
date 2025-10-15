@@ -77,7 +77,8 @@ export function Contact() {
           </div>
 
           {/* --- 右側：Instagram案内 --- */}
-<Card className="border-2 border-black bg-white text-black">
+{/* --- 右側：Instagram案内 --- */}
+<Card className="border-border bg-white text-black">
   <CardHeader>
     <CardTitle className="text-center">Instagram</CardTitle>
     <CardDescription className="text-center text-black">
@@ -107,6 +108,7 @@ export function Contact() {
     </a>
   </CardContent>
 </Card>
+
 
         </div>
       </div>
