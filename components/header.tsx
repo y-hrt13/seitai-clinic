@@ -88,35 +88,46 @@ export function Header() {
 
         {/* --- モバイルメニュー展開部分 --- */}
         {isMenuOpen && (
-          <nav className="md:hidden mt-4 pb-4 flex flex-col gap-4">
-            <a
-              href="#about"
-              className="text-sm text-muted-foreground hover:text-foreground transition-colors"
-            >
-              「てのひら」 について
-            </a>
-            <a
-              href="#staff"
-              className="text-sm text-muted-foreground hover:text-foreground transition-colors"
-            >
-              スタッフ紹介
-            </a>
-            <a
-              href="https://forms.gle/J9rucSxzn2ymx6qaA"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-sm text-muted-foreground hover:text-foreground transition-colors"
-            >
-              ご予約
-            </a>
-            <a
-              href="#top"
-              className="text-sm text-muted-foreground hover:text-foreground transition-colors"
-            >
-              トップに戻る
-            </a>
-          </nav>
-        )}
+  <nav className="md:hidden mt-4 pb-4 flex flex-col gap-4">
+    <a
+      href="#about"
+      className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+    >
+      「てのひら」 について
+    </a>
+    <a
+      href="#staff"
+      className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+    >
+      スタッフ紹介
+    </a>
+
+    {/* Instagramリンク追加 */}
+    <a
+      href="https://www.instagram.com/y.hrt13?igsh=MTRuZXNhM3l0Z3l5bA%3D%3D&utm_source=qr"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+    >
+      Instagram
+    </a>
+
+    <a
+      href="https://forms.gle/J9rucSxzn2ymx6qaA"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+    >
+      ご予約
+    </a>
+    <a
+      href="#top"
+      className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+    >
+      トップに戻る
+    </a>
+  </nav>
+)}
       </div>
     </header>
   )
