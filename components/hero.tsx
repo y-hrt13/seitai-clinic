@@ -13,11 +13,13 @@ export function Hero() {
           </h1>
 
           <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed text-pretty">
-            お仕事が忙しくてなかなか通院が出来ない．．．
+            お仕事が忙しくて<br />
+            なかなか通院が出来ない．．．<br />
             <br />
-            出産後のケアがしたいけど、子どもを連れて行くのが不安．．．
+            出産後のケアがしたいけど、<br />
+            子どもを連れて行くのが不安．．．<br />
             <br />
-            料金が高くて何回も通うのは難しい．．．
+            料金が高くて何回も通うのは難しい．．．<br />
             <br />
             そんな方こそ、ぜひ一度ご相談下さい。
           </p>
