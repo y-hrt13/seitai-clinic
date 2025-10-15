@@ -23,18 +23,20 @@ export function Hero() {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-4">
-            <Button size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90 group">
-              初回クーポン
-              <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
+            {/* 初回クーポンボタン → クリックで施術内容へ移動 */}
+            <Button asChild size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90 group">
+              <a href="#services" className="flex items-center">
+                初回クーポン
+                <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
+              </a>
             </Button>
-            <Button size="lg" variant="outline">
-              <Button asChild>
-  <a href="#services" className="group flex items-center">
-    施術内容 ・ 料金
-    <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
-  </a>
-</Button>
 
+            {/* 施術内容・料金ボタン（外枠削除） */}
+            <Button asChild size="lg" variant="outline" className="group">
+              <a href="#services" className="flex items-center">
+                施術内容 ・ 料金
+                <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
+              </a>
             </Button>
           </div>
         </div>

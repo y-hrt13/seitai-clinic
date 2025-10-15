@@ -51,24 +51,26 @@ export function Services() {
         <div className="flex flex-col md:flex-row justify-between items-stretch">
 
           {/* 左側：料金 */}
-          <div className="flex flex-col justify-center items-center text-3xl font-bold text-black w-full md:w-1/2 text-center">
-            30分 : 3,500円
-            <br />
-            <br />
-            60分 : 5,500円
-          </div>
+          {/* 左側：料金 */}
+{/* 左側：料金 */}
+<div className="flex flex-col justify-center items-center text-3xl md:text-4xl font-bold text-black w-full md:w-1/2 text-center space-y-3">
+  {/* 30分コース */}
+  <label className="flex items-center gap-3">
+    <input type="checkbox" className="w-5 h-5 accent-primary" />
+    <span>30分 : 3,500円</span>
+  </label>
 
-          {/* 中央の黒線（外枠と同じ太さ） */}
-          <div className="hidden md:block border-l-2 border-black mx-8"></div>
+  {/* 60分コース */}
+  <label className="flex flex-col items-center gap-2">
+    <div className="flex items-center gap-3">
+      <input type="checkbox" className="w-5 h-5 accent-primary" />
+      <span>60分 : 5,500円</span>
+    </div>
+    <span className="text-base md:text-lg font-medium text-red-600">初回 : 500円引き</span>
+  </label>
+</div>
 
-          {/* 右側：(例) */}
-          <div className="flex flex-col justify-center text-left text-lg font-medium text-black leading-relaxed w-full md:w-1/2">
-            <span className="block mb-2">( 例 )</span>
-            肩こり ＋ 骨盤矯正 ＝ 30分 ( 3,500円 )
-            <br />
-            <br />
-            猫背矯正 ＋ 腰痛 ＋ 首こり ＝ 60分 ( 5,500円 )
-          </div>
+
         </div>
       </div>
     </p>
