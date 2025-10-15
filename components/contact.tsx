@@ -89,7 +89,7 @@ export function Contact() {
     {/* Instagram画像 */}
     <div className="w-full rounded-xl overflow-hidden shadow-md">
       <Image
-        src="/instagram-sample.jpg" // ←あなたの画像ファイルに変更
+        src="/instagram-sample.jpg" 
         alt="Instagramページのイメージ"
         width={600}
         height={400}
