@@ -1,6 +1,6 @@
 "use client"
 
-import { Menu, CircleDollarSign } from "lucide-react"
+import { Menu } from "lucide-react"
 import { useState } from "react"
 import Image from "next/image"
 
@@ -62,15 +62,13 @@ export function Header() {
           </nav>
 
           {/* --- スマホナビゲーション --- */}
-          <div className="flex items-center gap-4 md:hidden">
-            {/* 💰料金マーク＋文字 */}
+          <div className="flex items-center gap-3 md:hidden">
+            {/* 「施術・料金」枠ボタン（マークなし） */}
             <a
               href="#services"
-              className="flex flex-col items-center justify-center text-black bg-white border border-black rounded-full w-14 h-14 hover:bg-black hover:text-white transition-colors"
+              className="text-xs px-3 py-1.5 border border-black rounded-full text-black bg-white hover:bg-black hover:text-white transition-colors"
             >
-              {/* マークを大きめに */}
-              <CircleDollarSign className="h-7 w-7 mb-0.5" strokeWidth={2.5} />
-              <span className="text-[10px] font-medium">料金</span>
+              施術 ・ 料金
             </a>
 
             {/* ハンバーガーメニュー */}
