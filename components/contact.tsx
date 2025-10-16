@@ -78,37 +78,44 @@ export function Contact() {
 
           {/* --- 右側：Instagram案内 --- */}
 {/* --- 右側：Instagram案内 --- */}
+{/* --- 右側：Instagram案内 --- */}
 <Card className="border-border bg-white text-black">
   <CardHeader>
     <CardTitle className="text-center">Instagram</CardTitle>
     <CardDescription className="text-center text-black">
-      プライベートの様子も更新していきます♪
+      プライベートの様子も更新していきます👈
     </CardDescription>
   </CardHeader>
+
   <CardContent className="flex flex-col items-center justify-center space-y-4">
-    {/* Instagram画像 */}
-    <div className="w-full rounded-xl overflow-hidden shadow-md">
+    {/* Instagram画像全体をリンク化 */}
+    <a
+      href="https://www.instagram.com/y.hrt13?igsh=MTRuZXNhM3l0Z3l5bA%3D%3D&utm_source=qr"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="w-full rounded-xl overflow-hidden shadow-md block"
+    >
       <Image
-        src="/instagram-sample.jpg" 
+        src="/instagram-sample.jpg"
         alt="Instagramページのイメージ"
         width={600}
         height={400}
-        className="object-cover w-full h-auto"
+        className="object-cover w-full h-auto transition-transform hover:scale-105 duration-300"
       />
-    </div>
+    </a>
 
-    {/* Instagramボタンのみ淡いピンクの枠・背景 */}
+    {/* 黒枠・白背景・黒文字のボタン */}
     <a
-  href="https://www.instagram.com/y.hrt13?igsh=MTRuZXNhM3l0Z3l5bA%3D%3D&utm_source=qr"
-  target="_blank"
-  rel="noopener noreferrer"
-  className="inline-block bg-pink-500 text-white rounded px-4 py-2 font-semibold hover:bg-pink-600 transition-all"
->
-  Instagramを見てみる 👈
-</a>
-
+      href="https://www.instagram.com/y.hrt13?igsh=MTRuZXNhM3l0Z3l5bA%3D%3D&utm_source=qr"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="inline-block border border-black bg-white text-black rounded px-4 py-2 font-semibold hover:bg-gray-100 transition-all"
+    >
+      Instagramを見てみる 👈
+    </a>
   </CardContent>
 </Card>
+
 
 
         </div>
