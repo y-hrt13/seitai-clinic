@@ -39,13 +39,14 @@ export function Director() {
             </div>
           </div>
 
-          <div className="relative aspect-[3/4] overflow-hidden rounded-lg">
-            <img
-              src="/professional-japanese-chiropractor-in-white-coat-s.jpg"
-              alt="院長"
-              className="w-full h-full object-cover"
-            />
-          </div>
+          <div className="relative aspect-[3/4] overflow-hidden rounded-lg max-w-sm mx-auto md:max-w-md">
+  <img
+    src="/professional-japanese-chiropractor-in-white-coat-s.jpg"
+    alt="院長"
+    className="w-full h-full object-cover"
+  />
+</div>
+
         </div>
       </div>
     </section>

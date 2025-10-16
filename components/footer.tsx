@@ -27,12 +27,13 @@ export function Footer() {
                 </a>
               </li>
               <li>
-                <a href="#ataff" className="hover:text-foreground transition-colors">
+                <a href="#staff" className="hover:text-foreground transition-colors">
                   スタッフ紹介
                 </a>
               </li>
               <li>
-                <a href="#contact" className="hover:text-foreground transition-colors">
+                {/* トップに移動 */}
+                <a href="#" className="hover:text-foreground transition-colors">
                   ご予約 ・ お問い合わせ
                 </a>
               </li>
@@ -42,7 +43,12 @@ export function Footer() {
           <div>
             <h4 className="text-sm font-semibold text-foreground mb-4">お問い合わせ</h4>
             <ul className="space-y-2 text-sm text-muted-foreground">
-              <li>TEL: 070-8556-1051</li>
+              {/* 電話リンクに変更 */}
+              <li>
+                <a href="tel:07085561051" className="hover:text-foreground transition-colors">
+                  TEL: 070-8556-1051
+                </a>
+              </li>
               <li>受付: 9:00〜20:00</li>
               <li>定休日: 日曜 ・ 祝日</li>
             </ul>
