@@ -99,13 +99,14 @@ export function Contact() {
 
     {/* Instagramボタンのみ淡いピンクの枠・背景 */}
     <a
-      href="https://www.instagram.com/y.hrt13?igsh=MTRuZXNhM3l0Z3l5bA%3D%3D&utm_source=qr"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="inline-block border border-pink-300 bg-pink-50 text-black rounded px-4 py-2 font-semibold hover:bg-pink-100 transition-all"
-    >
-      Instagramを見てみる♪
-    </a>
+  href="https://www.instagram.com/y.hrt13?igsh=MTRuZXNhM3l0Z3l5bA%3D%3D&utm_source=qr"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="inline-block bg-pink-500 text-white rounded px-4 py-2 font-semibold hover:bg-pink-600 transition-all"
+>
+  Instagramを見てみる 👈
+</a>
+
   </CardContent>
 </Card>
 
