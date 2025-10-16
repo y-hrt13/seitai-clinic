@@ -39,7 +39,7 @@ export function Director() {
             </div>
           </div>
 
-          <div className="relative aspect-[3/4] overflow-hidden rounded-lg max-w-sm mx-auto md:max-w-md">
+          <div className="relative aspect-[2/4] overflow-hidden rounded-lg max-w-sm mx-auto md:max-w-md">
   <img
     src="/professional-japanese-chiropractor-in-white-coat-s.jpg"
     alt="院長"
