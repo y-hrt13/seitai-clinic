@@ -95,24 +95,27 @@ export function Header() {
         {/* --- モバイルメニュー展開部分 --- */}
         {isMenuOpen && (
           <>
-            {/* 背景オーバーレイ（クリックで閉じる） */}
+            {/* 背景オーバーレイ（どこをタップしても閉じる） */}
             <div
               className="fixed inset-0 bg-black/30 backdrop-blur-sm z-40"
               onClick={() => setIsMenuOpen(false)}
             ></div>
 
-            {/* メニュー本体 */}
-            <nav className="absolute left-0 right-0 mt-4 pb-4 flex flex-col gap-4 bg-white z-50 border-b border-gray-200">
+            {/* メニュー本体（上部に余白追加） */}
+            <nav
+              className="fixed top-[80px] left-0 right-0 flex flex-col gap-4 bg-white z-50 border-b border-gray-200 shadow-lg p-4 rounded-b-2xl"
+              onClick={(e) => e.stopPropagation()} // ← メニュークリックでは閉じない
+            >
               <a
                 href="#about"
-                className="text-sm text-muted-foreground hover:text-foreground transition-colors px-4"
+                className="text-sm text-muted-foreground hover:text-foreground transition-colors"
                 onClick={() => setIsMenuOpen(false)}
               >
                 「てのひら」 について
               </a>
               <a
                 href="#staff"
-                className="text-sm text-muted-foreground hover:text-foreground transition-colors px-4"
+                className="text-sm text-muted-foreground hover:text-foreground transition-colors"
                 onClick={() => setIsMenuOpen(false)}
               >
                 スタッフ紹介
@@ -121,7 +124,7 @@ export function Header() {
                 href="https://www.instagram.com/y.hrt13?igsh=MTRuZXNhM3l0Z3l5bA%3D%3D&utm_source=qr"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-sm text-muted-foreground hover:text-foreground transition-colors px-4"
+                className="text-sm text-muted-foreground hover:text-foreground transition-colors"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Instagram
@@ -130,14 +133,14 @@ export function Header() {
                 href="https://forms.gle/J9rucSxzn2ymx6qaA"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-sm text-muted-foreground hover:text-foreground transition-colors px-4"
+                className="text-sm text-muted-foreground hover:text-foreground transition-colors"
                 onClick={() => setIsMenuOpen(false)}
               >
                 ご予約
               </a>
               <a
                 href="#top"
-                className="text-sm text-muted-foreground hover:text-foreground transition-colors px-4"
+                className="text-sm text-muted-foreground hover:text-foreground transition-colors"
                 onClick={() => setIsMenuOpen(false)}
               >
                 トップに戻る
@@ -149,6 +152,3 @@ export function Header() {
     </header>
   )
 }
-
-
-
