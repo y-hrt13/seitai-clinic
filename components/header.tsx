@@ -52,67 +52,60 @@ export function Header() {
   {/* 施術内容・料金ボタン */}
   <a
     href="#services"
-    className="flex flex-col items-center justify-center px-3 py-2 border border-black rounded-lg text-black bg-white hover:bg-black hover:text-white transition-colors leading-tight text-[11px]"
+    className="flex flex-row items-center justify-center px-3 py-2 border border-black rounded-lg text-black bg-white hover:bg-black hover:text-white transition-colors leading-tight text-[11px]"
   >
     <span>施術内容</span>
-    <span>・</span>
+    <span className="mx-1">・</span>
     <span>料金</span>
   </a>
 
-  {/* 他のボタンも同じスタイルに */}
-  <a
-    href="#about"
-    className="px-3 py-2 border border-black rounded-lg text-black bg-white hover:bg-black hover:text-white transition-colors text-sm text-center"
-  >
+  {/* 他のメニュー */}
+  <a href="#about" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
     「てのひら」について
   </a>
-
-  <a
-    href="#staff"
-    className="px-3 py-2 border border-black rounded-lg text-black bg-white hover:bg-black hover:text-white transition-colors text-sm text-center"
-  >
+  <a href="#staff" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
     スタッフ紹介
   </a>
-
   <a
-    href="https://www.instagram.com/y.hrt13?igsh=MTRuZXNhM3l0Z3l5bA%3D%3D&utm_source=qr"
+    href="https://www.instagram.com/y.hrt13"
     target="_blank"
     rel="noopener noreferrer"
-    className="px-3 py-2 border border-black rounded-lg text-black bg-white hover:bg-black hover:text-white transition-colors text-sm text-center"
+    className="text-sm text-muted-foreground hover:text-foreground transition-colors"
   >
     Instagram
   </a>
-
   <a
     href="https://forms.gle/J9rucSxzn2ymx6qaA"
     target="_blank"
     rel="noopener noreferrer"
-    className="px-3 py-2 border border-black rounded-lg text-black bg-white hover:bg-black hover:text-white transition-colors text-sm text-center"
+    className="text-sm text-muted-foreground hover:text-foreground transition-colors"
   >
     ご予約
   </a>
 </nav>
 
 
-          {/* --- スマホナビゲーション --- */}
-          <div className="flex items-center gap-2 md:hidden">
-            <a
-              href="#services"
-              className="flex flex-col items-center justify-center text-[11px] px-2 py-1 border border-black rounded-lg text-black bg-white hover:bg-black hover:text-white transition-colors leading-tight"
-            >
-              <span>施術内容</span>
-              <span>・</span>
-              <span>料金</span>
-            </a>
 
-            <button
-              onClick={() => setIsMenuOpen(!isMenuOpen)}
-              aria-label="メニュー"
-              className="p-2"
-            >
-              <Menu className="h-6 w-6" />
-            </button>
-          </div>
+          {/* --- スマホナビゲーション --- */}
+<div className="flex items-center gap-1 md:hidden">
+  <a
+    href="#services"
+    className="flex flex-col items-center justify-center text-[9px] px-1.5 py-1 border border-black rounded-lg text-black bg-white hover:bg-black hover:text-white transition-colors leading-tight"
+  >
+    <span>施術内容</span>
+    <span>・</span>
+    <span>料金</span>
+  </a>
+
+  <button
+    onClick={() => setIsMenuOpen(!isMenuOpen)}
+    aria-label="メニュー"
+    className="p-2"
+  >
+    <Menu className="h-6 w-6" />
+  </button>
+</div>
+
         </div>
 
         {/* --- モバイルメニュー --- */}
