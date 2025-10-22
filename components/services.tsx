@@ -3,25 +3,25 @@ import Image from "next/image"
 
 const services = [
   {
-    image: "/images/neck.jpg",
+    image: "imagesneck.jpg",
     title: "首こり ・ 肩こり ・ 猫背矯正",
     description:
       "首や肩の筋肉の緊張をほぐしていきます。猫背に関係してくる関節・筋肉へのアプローチをしていきます。",
   },
   {
-    image: "/images/waist.jpg",
+    image: "imageswaist.jpg",
     title: "腰痛 ・ 反り腰 ・ 骨盤矯正",
     description:
       "腰や下肢の筋肉の緊張をほぐしていきます。股関節や背骨の歪みを整えていくことで反り腰・痛みを改善していきます。",
   },
   {
-    image: "/images/postpartum.jpg",
+    image: "imagespostpartum.jpg",
     title: "産後ケア",
     description:
       "骨盤矯正をしていきます。骨盤だけではなく「歩き方・立ち方・座り方」など妊娠中に出来た良くない癖を改善していく中で、育児で疲労した身体を整えていきます。",
   },
   {
-    image: "/images/accident.jpg",
+    image: "imagesaccident.jpg",
     title: "交通事故 無料相談",
     description:
       "交通事故によるむち打ち症状や事故対応「保険対応」などアドバイス致します。症状によってはお近くの医療機関をご紹介します。",
