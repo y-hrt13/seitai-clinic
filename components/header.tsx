@@ -25,7 +25,6 @@ export function Header() {
       document.removeEventListener("mousedown", handleClickOutside)
     }
 
-    // クリーンアップ
     return () => {
       document.removeEventListener("mousedown", handleClickOutside)
     }
@@ -59,7 +58,41 @@ export function Header() {
 
           {/* --- PCナビゲーション --- */}
           <nav className="hidden md:flex items-center gap-6">
-            {/* ...省略（あなたの元のコード）... */}
+            <a
+              href="#about"
+              className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+            >
+              「てのひら」について
+            </a>
+            <a
+              href="#staff"
+              className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+            >
+              スタッフ紹介
+            </a>
+            <a
+              href="#services"
+              className="flex flex-col items-center justify-center text-[11px] px-3 py-2 border border-black rounded-lg text-black bg-white hover:bg-black hover:text-white transition-colors leading-tight"
+            >
+              <span>施術内容</span>
+              <span>料金</span>
+            </a>
+            <a
+              href="https://www.instagram.com/y.hrt13?igsh=MTRuZXNhM3l0Z3l5bA%3D%3D&utm_source=qr"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+            >
+              Instagram
+            </a>
+            <a
+              href="https://forms.gle/J9rucSxzn2ymx6qaA"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+            >
+              ご予約
+            </a>
           </nav>
 
           {/* --- スマホナビゲーション --- */}
