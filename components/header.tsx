@@ -52,10 +52,10 @@ export function Header() {
   {/* 施術内容・料金ボタン（サイズを他と揃える） */}
   <a
     href="#services"
-    className="flex flex-row items-center justify-center px-3 py-2 border border-black rounded-lg text-black bg-white hover:bg-black hover:text-white transition-colors leading-tight text-sm"
+    className="px-3 py-2 border border-black rounded-lg text-black bg-white hover:bg-black hover:text-white transition-colors text-sm text-center flex items-center justify-center gap-1"
   >
     <span>施術内容</span>
-    <span className="mx-1">・</span>
+    <span>・</span>
     <span>料金</span>
   </a>
 
@@ -89,6 +89,7 @@ export function Header() {
     ご予約
   </a>
 </nav>
+
 
 
 
