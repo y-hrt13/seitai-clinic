@@ -48,40 +48,51 @@ export function Header() {
           </a>
 
           {/* --- PCナビゲーション --- */}
-          <nav className="hidden md:flex items-center gap-6">
-            {/* PCでは一番左に配置 */}
-            <a
-              href="#services"
-              className="flex flex-col items-center justify-center px-3 py-2 border border-black rounded-lg text-black bg-white hover:bg-black hover:text-white transition-colors leading-tight text-[11px]"
-            >
-              <span>施術内容</span>
-              <span>・</span>
-              <span>料金</span>
-            </a>
+<nav className="hidden md:flex items-center gap-3">
+  {/* 施術内容・料金ボタン */}
+  <a
+    href="#services"
+    className="flex flex-col items-center justify-center px-3 py-2 border border-black rounded-lg text-black bg-white hover:bg-black hover:text-white transition-colors leading-tight text-[11px]"
+  >
+    <span>施術内容</span>
+    <span>・</span>
+    <span>料金</span>
+  </a>
 
-            <a href="#about" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-              「てのひら」について
-            </a>
-            <a href="#staff" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-              スタッフ紹介
-            </a>
-            <a
-              href="https://www.instagram.com/y.hrt13?igsh=MTRuZXNhM3l0Z3l5bA%3D%3D&utm_source=qr"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-sm text-muted-foreground hover:text-foreground transition-colors"
-            >
-              Instagram
-            </a>
-            <a
-              href="https://forms.gle/J9rucSxzn2ymx6qaA"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-sm text-muted-foreground hover:text-foreground transition-colors"
-            >
-              ご予約
-            </a>
-          </nav>
+  {/* 他のボタンも同じスタイルに */}
+  <a
+    href="#about"
+    className="px-3 py-2 border border-black rounded-lg text-black bg-white hover:bg-black hover:text-white transition-colors text-sm text-center"
+  >
+    「てのひら」について
+  </a>
+
+  <a
+    href="#staff"
+    className="px-3 py-2 border border-black rounded-lg text-black bg-white hover:bg-black hover:text-white transition-colors text-sm text-center"
+  >
+    スタッフ紹介
+  </a>
+
+  <a
+    href="https://www.instagram.com/y.hrt13?igsh=MTRuZXNhM3l0Z3l5bA%3D%3D&utm_source=qr"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="px-3 py-2 border border-black rounded-lg text-black bg-white hover:bg-black hover:text-white transition-colors text-sm text-center"
+  >
+    Instagram
+  </a>
+
+  <a
+    href="https://forms.gle/J9rucSxzn2ymx6qaA"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="px-3 py-2 border border-black rounded-lg text-black bg-white hover:bg-black hover:text-white transition-colors text-sm text-center"
+  >
+    ご予約
+  </a>
+</nav>
+
 
           {/* --- スマホナビゲーション --- */}
           <div className="flex items-center gap-2 md:hidden">
