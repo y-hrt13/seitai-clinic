@@ -59,18 +59,24 @@ export function Header() {
     <span>料金</span>
   </a>
 
-  {/* 他のメニュー */}
-  <a href="#about" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+  {/* 他のメニューもボタン風に */}
+  <a
+    href="#about"
+    className="px-3 py-2 border border-black rounded-lg text-black bg-white hover:bg-black hover:text-white transition-colors text-sm text-center"
+  >
     「てのひら」について
   </a>
-  <a href="#staff" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+  <a
+    href="#staff"
+    className="px-3 py-2 border border-black rounded-lg text-black bg-white hover:bg-black hover:text-white transition-colors text-sm text-center"
+  >
     スタッフ紹介
   </a>
   <a
     href="https://www.instagram.com/y.hrt13"
     target="_blank"
     rel="noopener noreferrer"
-    className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+    className="px-3 py-2 border border-black rounded-lg text-black bg-white hover:bg-black hover:text-white transition-colors text-sm text-center"
   >
     Instagram
   </a>
@@ -78,11 +84,12 @@ export function Header() {
     href="https://forms.gle/J9rucSxzn2ymx6qaA"
     target="_blank"
     rel="noopener noreferrer"
-    className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+    className="px-3 py-2 border border-black rounded-lg text-black bg-white hover:bg-black hover:text-white transition-colors text-sm text-center"
   >
     ご予約
   </a>
 </nav>
+
 
 
 
