@@ -49,17 +49,17 @@ export function Header() {
 
           {/* --- PCナビゲーション --- */}
 <nav className="hidden md:flex items-center gap-3">
-  {/* 施術内容・料金ボタン */}
+  {/* 施術内容・料金ボタン（サイズを他と揃える） */}
   <a
     href="#services"
-    className="flex flex-row items-center justify-center px-3 py-2 border border-black rounded-lg text-black bg-white hover:bg-black hover:text-white transition-colors leading-tight text-[11px]"
+    className="flex flex-row items-center justify-center px-3 py-2 border border-black rounded-lg text-black bg-white hover:bg-black hover:text-white transition-colors leading-tight text-sm"
   >
     <span>施術内容</span>
     <span className="mx-1">・</span>
     <span>料金</span>
   </a>
 
-  {/* 他のメニューもボタン風に */}
+  {/* 他のメニューもボタン風 */}
   <a
     href="#about"
     className="px-3 py-2 border border-black rounded-lg text-black bg-white hover:bg-black hover:text-white transition-colors text-sm text-center"
@@ -89,6 +89,7 @@ export function Header() {
     ご予約
   </a>
 </nav>
+
 
 
 
