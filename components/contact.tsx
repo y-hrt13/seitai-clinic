@@ -49,11 +49,11 @@ export function Contact() {
   </CardHeader>
 
   <CardContent className="space-y-2">
-    <p className="text-foreground">2025年11月20日(木)</p>
-    <p className="text-foreground">午前の部　10:30～12:00</p>
-    <p className="text-foreground">午後の部　13:30～15:00</p>
-    <p className="text-foreground">アイデザインホーム福山北展示場</p>
-    <p className="text-sm text-muted-foreground">駐車場 ( あり )</p>
+    <p className="text-foreground">??年??月??日(??)</p>
+    <p className="text-foreground">午前の部　??:??～??:??</p>
+    <p className="text-foreground">午後の部　??:??～??:??</p>
+    <p className="text-foreground">現在イベントの予定はありません。</p>
+    <p className="text-sm text-muted-foreground">駐車場 ( ?? )</p>
 
     {/* 画像を追加 */}
     <div className="pt-2">
