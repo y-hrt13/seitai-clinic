@@ -110,7 +110,7 @@ export function Contact() {
       className="w-full rounded-xl overflow-hidden shadow-md block"
     >
       <Image
-        src=instagram-sample.jpg"
+        src="/instagram-sample.jpg"
         alt="Instagramページのイメージ"
         width={600}
         height={400}
