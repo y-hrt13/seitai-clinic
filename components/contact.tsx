@@ -104,7 +104,7 @@ export function Contact() {
   <CardContent className="flex flex-col items-center justify-center space-y-4">
     {/* Instagram画像全体をリンク化 */}
     <a
-      href="https://www.instagram.com/y.hrt13?igsh=MTRuZXNhM3l0Z3l5bA%3D%3D&utm_source=qr"
+      href="https://www.instagram.com/s.tenohira13?igsh=MTRuZXNhM3l0Z3l5bA%3D%3D&utm_source=qr"
       target="_blank"
       rel="noopener noreferrer"
       className="w-full rounded-xl overflow-hidden shadow-md block"
