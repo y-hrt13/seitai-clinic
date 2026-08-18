@@ -120,7 +120,7 @@ export function Contact() {
 
     {/* 黒枠・白背景・黒文字のボタン */}
     <a
-      href="https://www.instagram.com/y.hrt13?igsh=MTRuZXNhM3l0Z3l5bA%3D%3D&utm_source=qr"
+      href="https://www.instagram.com/s.tenohira13?igsh=MTRuZXNhM3l0Z3l5bA%3D%3D&utm_source=qr"
       target="_blank"
       rel="noopener noreferrer"
       className="inline-block border border-black bg-white text-black rounded px-4 py-2 font-semibold hover:bg-gray-100 transition-all"

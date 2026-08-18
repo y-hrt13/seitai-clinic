@@ -73,7 +73,7 @@ export function Header() {
     スタッフ紹介
   </a>
   <a
-    href="https://www.instagram.com/y.hrt13"
+    href="https://www.instagram.com/s.tenohira13?igsh=MTRuZXNhM3l0Z3l5bA%3D%3D&utm_source=qr"
     target="_blank"
     rel="noopener noreferrer"
     className="px-3 py-2 border border-black rounded-lg text-black bg-white hover:bg-black hover:text-white transition-colors text-sm text-center"
@@ -127,7 +127,7 @@ export function Header() {
               スタッフ紹介
             </a>
             <a
-              href="https://www.instagram.com/y.hrt13?igsh=MTRuZXNhM3l0Z3l5bA%3D%3D&utm_source=qr"
+              href="https://www.instagram.com/s.tenohira13?igsh=MTRuZXNhM3l0Z3l5bA%3D%3D&utm_source=qr"
               target="_blank"
               rel="noopener noreferrer"
               className="text-sm text-muted-foreground hover:text-foreground transition-colors"
